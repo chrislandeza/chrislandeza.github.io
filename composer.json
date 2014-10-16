@@ -1,0 +1,14 @@
+{
+	"name": "Chris Landeza",
+	"description": "Chris Landeza Website.",
+	"keywords": ["Chris Landeza", "Web Developer Web Designer"],
+	"license": "MIT",
+	"require": {
+		"twbs/bootstrap": "3.2.*@dev",
+		"components/jquery": "dev-master"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
