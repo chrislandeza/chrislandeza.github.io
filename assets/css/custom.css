@@ -47,9 +47,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 #home{
- 
-    background: #81BE99 url("../img/top-bg.jpg") center 0 fixed;
+    
+    background: #C7642D url("../img/top-bg.jpg") center 0 fixed;
     background-size: cover;
+    -webkit-background-size: cover;
     display: table;
     vertical-align: middle;
     width: 100%;
@@ -76,3 +77,30 @@ of those sections to manage the look and feel of the site. */
     background-color: #31b0d5;
 }
 
+
+
+.avatar{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+border: 20px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.heading-right{
+    float:left;
+    margin-top:50px;
+}
+.heading-right h1{
+    font-size: 3.5em;
+    font-family: "Josefin Slab Bold";
+    font-size: 2.5em;
+    margin-bottom: 0;
+}

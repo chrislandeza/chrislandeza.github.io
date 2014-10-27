@@ -15,11 +15,13 @@
 
 - Fixed the Scroll
 
-Ref:
+New Profile Reference
 
 http://jamesdowen.com/ 
 http://jozefmaxted.co.uk/
-
+http://wrapbootstrap.com/preview/WB057FN0R
+http://www.pascalvangemert.nl/#/projects
+http://www.christhurman.com/
 
 
 https://github.com/garand/sticky <-- Make Elem Sticky..

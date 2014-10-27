@@ -33,17 +33,23 @@
     
     
      <!-- Intro Section -->
-     <section id="home">
-         <div id="home-content">
-            <div class="container">
+     <section id="home" class="jumbotron">
+         <div class="container" id="home-content">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <img style="max-width: 30%;" class="img-responsive center-block animated bounceInDown " src="assets/img/logo.png" alt="Chris Landeza - Design and Code">
-                        <h2>Chris Landeza</h2>
+                    <div class="col-md-6">
+                        
+                        <img src="assets/img/avatar.png" class="avatar pull-right" alt="Profile Picture">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pull-left heading-right">
+                        <h1>HELLO, I'M BOB</h1>
+                        <p>A web designer from New York. Want to know more about me?</p>
+                        <a href="#about-me" class="btn btn-default btn-lg">READ MORE</a><a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-primary btn-lg">DOWNLOAD vCARD</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-         </div>
+        </div>
+                
     </section>
 
   
