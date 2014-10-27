@@ -32,13 +32,13 @@
 <body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80">
     
     
+    
      <!-- Intro Section -->
-     <section id="home" class="jumbotron">
+     <section id="home" class="">
          <div class="container" id="home-content">
                 <div class="row">
                     <div class="col-md-6">
-                        
-                        <img src="assets/img/avatar.png" class="avatar pull-right" alt="Profile Picture">
+                        <img src="assets/img/avatarx.png" class="avatar pull-right" alt="Profile Picture">
                     </div>
                     <div class="col-md-6">
                         <div class="pull-left heading-right">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
         </div>
-                
+               
     </section>
 
   
@@ -84,6 +84,7 @@
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
                         </li>
+                        
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

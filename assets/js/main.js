@@ -1,6 +1,8 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
+    
     var x = $(this).scrollTop();
+    
     $("#home").css('background-position', '0% ' + parseInt(-x / 1) + 'px');
     
     if($("#navigation-sticky-wrapper").hasClass('is-sticky')){
