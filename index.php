@@ -29,34 +29,35 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80">
-    
-    
+<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="70">
     
      <!-- Intro Section -->
-     <section id="home" class="">
-         <div class="container" id="home-content">
+     <header id="home">
+         <div  class="center-div">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/img/avatarx.png" class="avatar pull-right" alt="Profile Picture">
+                    <div class="col-md-6 left">
+                        <div class="avatar">
+                            <img src="assets/img/tester.png" class="img-responsive" alt="Profile Picture">
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="pull-left heading-right">
-                        <h1>HELLO, I'M BOB</h1>
-                        <p>A web designer from New York. Want to know more about me?</p>
+                        <div class="right">
+                        <h1>Shangri-La Finest Chinese Cuisine.</h1>
+                        <p>The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
                         <a href="#about-me" class="btn btn-default btn-lg">READ MORE</a><a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-primary btn-lg">DOWNLOAD vCARD</a>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-               
-    </section>
+    </header>
 
   
     
     <section id="navigation" >
         <!-- Navigation -->
-        <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
+        <nav id="nav" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -75,8 +76,9 @@
                         <li class="hidden">
                             <a class="page-scroll" href="#page-top"></a>
                         </li>
+                        
                         <li>
-                            <a class="page-scroll" href="#about">About</a>
+                            <a class="page-scroll" href="#about" class="about-section">About</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#services">Services</a>
@@ -101,7 +103,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1><h1>About Section</h1><h1>About Section</h1>
+                    <h2 class="heading">About</h2>
+                    <p class="lead text-center">Shangri-La Finest Chinese Cuisine</p>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -113,6 +117,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Services Section</h1>
+                    <h2>Shangri-La Finest Chinese Cuisine</h2>
                 </div>
             </div>
         </div>
@@ -124,6 +129,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Contact Section</h1>
+                    <h2>Shangri-La Finest Chinese Cuisine</h2>
                 </div>
             </div>
         </div>

@@ -1,13 +1,13 @@
 
-/* 
-    Created on : Jul 29, 2014, 6:00:17 PM
-    Author     : Chris Landeza
-*/
-
-
+/*------------------------------------------------*/
+/*	Author: Chris Landeza
+/*------------------------------------------------*/
 body {
     width: 100%;
     height: 100%;
+    background: #C7642D url("../img/top-bg.jpg") no-repeat center right fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 html {
@@ -23,8 +23,8 @@ of those sections to manage the look and feel of the site. */
 
 .full-height{
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 100px;
+    
 }
 
 
@@ -46,9 +46,50 @@ of those sections to manage the look and feel of the site. */
     margin: 0px;
 }
 
+/*------------------------------------------------*/
+/*	Utility Classes
+/*------------------------------------------------*/
+.heading{
+  
+    font-family: "nashville-l";
+    font-size: 54px;
+    color:#cb784a;
+    text-align: center;
+  
+}
+
+
+
+p.lead{
+    color:#727878;
+    font-family: "nashville-l";
+}
+
+hr{
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+}
+
+/*------------------------------------------------*/
+/*	About Styles
+/*------------------------------------------------*/
+#about{
+    background-color: #fff;
+    /* Pull-up the about section to fill the gap when the nav-bar collapse */
+    margin-top: -40px;
+}
+
+#services{
+    background-color: #31b0d5;
+}
+
+
+/*------------------------------------------------*/
+/*	Header Styles
+/*------------------------------------------------*/
 #home{
-    
-    background: #C7642D url("../img/top-bg.jpg") center 0 fixed;
+    background: #C7642D url("../img/top-bg.jpg") no-repeat center right fixed;
     background-size: cover;
     -webkit-background-size: cover;
     display: table;
@@ -57,64 +98,102 @@ of those sections to manage the look and feel of the site. */
     overflow-x: hidden;
     overflow-y: hidden;
     color: #fff;
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     text-align: center;
-    
 }
 
-#home-content{
+.center-div{
     position: relative;
     display: table-cell;
     vertical-align: middle;
 }
 
-
-#about{
-    background-color: #269abc;
+#home .btn {
+  margin-right: 0;
+  margin-bottom: 20px;
+  padding: 14px 24px;
 }
 
-#services{
-    background-color: #31b0d5;
+@media (min-width: 768px) {
+    #home .btn {
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        margin-right: 20px;
+    }
 }
 
-
-
-.avatar{
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
--ms-border-radius: 50%;
--o-border-radius: 50%;
-border-radius: 50%;
-display: -moz-inline-stack;
-display: inline-block;
-vertical-align: middle;
-zoom: 1;
-border: 20px solid rgba(0, 0, 0, 0.1);
+#home .right{
+    padding-top:3em;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-
-
-.heading-right{
-    float:left;
-    margin-top:50px;
+#home .left{
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.heading-right h1{
+
+#home h1{
     font-size: 3.5em;
-    font-family: "Josefin Slab Bold";
-    font-size: 2.5em;
+    font-family: "nashville-b";
     margin-bottom: 0;
 }
 
+#home p {
+  font-size: 1.5em;
+  margin-bottom: 45px;
+  line-height: 1.4;
+}
 
-/* Custom Nav Bar Styles */
+
+.avatar{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+   
+}
+
+.avatar img {
+    /* we can't use percentage value for image with border-radius */
+    -webkit-border-radius: 225px;
+    -moz-border-radius: 225px;
+    -ms-border-radius: 225px;
+    -o-border-radius: 225px;
+    border-radius: 225px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header Styles end */
+
+
+
+
+/*------------------------------------------------*/
+/* Navigation styles
+/*------------------------------------------------*/
 /* navbar */
 .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
+    background-color: #C7642D;
+    border: none;
+    
 }
 /* title */
 .navbar-default .navbar-brand {
-    color: #777;
+    color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -122,23 +201,24 @@ border: 20px solid rgba(0, 0, 0, 0.1);
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+    color: #fff;
+    background-color: #cb784a;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
+    color: #fff;
+    background-color: #cb784a;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #D5D5D5;
+    color: #fff;
+    background-color: #C13100;
 }
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
@@ -175,4 +255,28 @@ border: 20px solid rgba(0, 0, 0, 0.1);
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
     }
+}
+
+
+
+
+/*------------------------------------------------*/
+/*	Fonts
+/*------------------------------------------------*/
+@font-face {
+    font-family: nashville-m;
+    src: url(Nashville_Medium.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: nashville-b;
+    src: url(Nashville_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: nashville-l;
+    src: url(Nashville_Light.ttf);
+    font-weight: bold;
 }
