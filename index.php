@@ -13,9 +13,11 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/scrolling-nav.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,7 +31,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="70">
+<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80">
     
      <!-- Intro Section -->
      <header id="home">
@@ -37,25 +39,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 left">
-                        <div class="avatar">
+                        <div class="avatar wow fadeIn">
                             <img src="assets/img/tester.png" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="right">
-                        <h1>Shangri-La Finest Chinese Cuisine.</h1>
-                        <p>The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
-                        <a href="#about-me" class="btn btn-default btn-lg">READ MORE</a><a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-primary btn-lg">DOWNLOAD vCARD</a>
+                        <h1 class="home-heading wow fadeInUp">Shangri-La Finest Chinese Cuisine.</h1>
+                        <p class="home-subheading wow fadeInUp">The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
+                        <div class="home-buttons wow bounceIn">
+                         <a href="#about" class="btn btn-default btn-lg page-scroll">READ MORE</a><a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-lg">DOWNLOAD MENUS</a>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-  
     
-    <section id="navigation" >
+     
+    <section id="navigation">
         <!-- Navigation -->
         <nav id="nav" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
             <div class="container">
@@ -74,7 +77,7 @@
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden">
-                            <a class="page-scroll" href="#page-top"></a>
+                            <a class="page-scroll" href="#home"></a>
                         </li>
                         
                         <li>
@@ -145,6 +148,10 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

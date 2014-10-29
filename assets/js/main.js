@@ -31,11 +31,28 @@ $(function() {
         $("#nav").removeClass('top-nav-collapse');
     });
     
+    
     $('a.page-scroll').bind('click', function(event) {
+        var hash = this.hash;
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo', function (){
+            window.location.hash = hash;
+        
+        });
         event.preventDefault();
+       
     });
+    
+   
+    
+    
 });
+
+jQuery(window).load(function () {
+    var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    
+});
+
+

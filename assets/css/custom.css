@@ -47,6 +47,29 @@ of those sections to manage the look and feel of the site. */
 }
 
 /*------------------------------------------------*/
+/*	Scrollbar Style
+/*------------------------------------------------*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #FFF;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #CCC;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #AAA;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #888;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+
+/*------------------------------------------------*/
 /*	Utility Classes
 /*------------------------------------------------*/
 .heading{
@@ -55,9 +78,11 @@ of those sections to manage the look and feel of the site. */
     font-size: 54px;
     color:#cb784a;
     text-align: center;
-  
 }
 
+.invi{
+   visibility: hidden;
+}
 
 
 p.lead{
@@ -280,3 +305,34 @@ hr{
     src: url(Nashville_Light.ttf);
     font-weight: bold;
 }
+
+
+/*------------------------------------------------*/
+/*	Animation Cofig. Home
+/*------------------------------------------------*/
+.avatar{
+   /* Input Delays or duration here */
+}
+
+.home-heading{
+     -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+
+.home-subheading{
+     -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+.home-buttons{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+
+/*------------------------------------------------*/
+/*	Animation Cofig. About
+/*------------------------------------------------*/
