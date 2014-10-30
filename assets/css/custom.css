@@ -16,6 +16,16 @@ html {
 }
 
 
+h2, h3, h4{
+    font-family: "nashville-l";
+    color:#cb784a;
+    text-align: center;
+}
+
+h3{
+    font-size: 28px;
+}
+
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -135,7 +145,7 @@ hr{
 }
 
 #home .btn {
-  margin-right: 0;
+  margin-right: 20px;
   margin-bottom: 20px;
   padding: 14px 24px;
 }
@@ -210,6 +220,13 @@ hr{
 /*------------------------------------------------*/
 /* Navigation styles
 /*------------------------------------------------*/
+.brand {height: 25px; margin-top:-6.5px; margin-right:2px;}
+.navbar-brand{
+    font-size:18px;
+    font-family: "nashville-l";
+    
+}
+
 /* navbar */
 .navbar-default {
     background-color: #C7642D;
@@ -222,7 +239,7 @@ hr{
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
+    color: #fff;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {

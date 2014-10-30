@@ -45,11 +45,12 @@
                     </div>
                     <div class="col-md-6">
                         <div class="right">
-                        <h1 class="home-heading wow fadeInUp">Shangri-La Finest Chinese Cuisine.</h1>
-                        <p class="home-subheading wow fadeInUp">The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
-                        <div class="home-buttons wow bounceIn">
-                         <a href="#about" class="btn btn-default btn-lg page-scroll">READ MORE</a><a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-lg">DOWNLOAD MENUS</a>
-                        </div>
+                            <h1 class="home-heading wow fadeInUp">Shangri-La Finest Chinese Cuisine.</h1>
+                            <p class="home-subheading wow fadeInUp">The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
+                            <div class="home-buttons wow bounceIn">
+                             <a href="#about" class="btn btn-primary btn-md page-scroll">READ MORE</a>
+                             <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">DOWNLOAD MENUS</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,7 +61,7 @@
      
     <section id="navigation">
         <!-- Navigation -->
-        <nav id="nav" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+        <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -69,7 +70,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <img src="assets/img/logo.png" class="brand">SHANGRI-LA FINEST CHINESE CUISINE
+                    </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -104,13 +107,19 @@
     <!-- About Section -->
     <section id="about" class="full-height">
         <div class="container">
+            
+            <h2 class="heading">About</h2>
+            <p class="lead text-center">Shangri-La Finest Chinese Cuisine</p>
+            <hr>
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="heading">About</h2>
-                    <p class="lead text-center">Shangri-La Finest Chinese Cuisine</p>
-                    <hr>
+                <div class="col-md-4">
+                    <h3>About Shangri-La</h3>
+                    <p></p>
                 </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
             </div>
+             
         </div>
     </section>
 
