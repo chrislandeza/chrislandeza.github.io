@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
 
@@ -31,15 +31,16 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80">
+<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80"  >
     
      <!-- Intro Section -->
-     <header id="home">
+     <section id="home">
          <div  class="center-div">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
+                            <!-- logo2.png -->
                             <img src="assets/img/tester.png" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
@@ -48,7 +49,7 @@
                             <h1 class="home-heading wow fadeInUp">Shangri-La Finest Chinese Cuisine.</h1>
                             <p class="home-subheading wow fadeInUp">The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
                             <div class="home-buttons wow bounceIn">
-                             <a href="#about" class="btn btn-primary btn-md page-scroll">READ MORE</a>
+                             <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
                              <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">DOWNLOAD MENUS</a>
                             </div>
                         </div>
@@ -56,7 +57,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </section>
     
      
     <section id="navigation">
@@ -70,8 +71,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">
-                        <img src="assets/img/logo.png" class="brand">SHANGRI-LA FINEST CHINESE CUISINE
+                    <a class="navbar-brand page-scroll" href="#home">
+                        <!-- logo.png -->
+                        <img src="assets/img/tester.png" class="brand"> 
                     </a>
                 </div>
 
@@ -80,14 +82,14 @@
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden">
-                            <a class="page-scroll" href="#home"></a>
+                            <a class="page-scroll" href=""></a>
                         </li>
                         
                         <li>
-                            <a class="page-scroll" href="#about" class="about-section">About</a>
+                            <a class="page-scroll" href="#profile" class="about-section">Profile</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#services">Services</a>
+                            <a class="page-scroll" href="#experiences">Experiences</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
@@ -105,26 +107,41 @@
 
    
     <!-- About Section -->
-    <section id="about" class="full-height">
+    <section id="profile" class="full-height">
         <div class="container">
             
-            <h2 class="heading">About</h2>
+            <h2 class="heading">Profile</h2>
             <p class="lead text-center">Shangri-La Finest Chinese Cuisine</p>
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     <h3>About Shangri-La</h3>
-                    <p></p>
+                    <p>I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <img src="assets/img/tester.png" class="img-responsive" >
+                </div>
+                <div class="col-md-4">
+                    <h3>Details</h3>
+                   
+                <dl>
+                    <dt>Name:</dt>
+                    <dd >Shangri-La Finest Chinese Cuisine</dd>
+                    <dt>Age:</dt>
+                    <dd >21</dd>
+                    <dt>Location:</dt>
+                    <dd >Valenzuela City, Philippines</dd>
+                </dl>
+                    
+                    
+                </div>
             </div>
              
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="full-height">
+    <section id="experiences" class="full-height">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

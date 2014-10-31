@@ -1,3 +1,9 @@
+
+jQuery(window).load(function () {
+ 
+    //$("body").removeClass("hidden");
+});
+
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     
