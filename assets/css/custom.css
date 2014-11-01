@@ -1,8 +1,8 @@
 
-/*------------------------------------------------*/
-/*	Author: Chris Landeza
-/*------------------------------------------------*/
-
+/*!
+ * (http://chrislandeza.com)
+ * Copyright 2014 Chris Landeza.
+ */
 
 /*------------------------------------------------*/
 /* Override Element Style
@@ -110,9 +110,6 @@ of those sections to manage the look and feel of the site. */
 /*------------------------------------------------*/
 /*	Utility Classes
 /*------------------------------------------------*/
-
-
-
 .heading{
   
     font-family: "Nashville";
@@ -165,11 +162,31 @@ hr{
 }
 
 
-/*------------------------------------------------*/
-/*	Animation Cofig. for Profile
-/*------------------------------------------------*/
+
+//****	Animation Cofig. Profile ****/
+#profile .row > div:nth-child(1){
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+}
+#profile .row > div:nth-child(2){
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+#profile .row > div:nth-child(3){
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+}
 
 
+
+
+
+
+
+
+/*------------------------------------------------*/
+/*	Experiences Styles
+/*------------------------------------------------*/
 #experiences{
     background-color: #F4DEBE;
 }
@@ -266,7 +283,31 @@ hr{
     margin: 0 auto;
 }
 
-/* Header Styles end */
+
+
+/****	Animation Cofig. Home ****/
+.avatar{
+   /* Input Delays or duration here */
+}
+.home-heading{
+     -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+
+.home-subheading{
+     -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+.home-buttons{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+/* ********************* Home Styles end *******************/
 
 
 
@@ -398,29 +439,4 @@ hr{
    
 }
 
-
-/*------------------------------------------------*/
-/*	Animation Cofig. Home
-/*------------------------------------------------*/
-.avatar{
-   /* Input Delays or duration here */
-}
-
-.home-heading{
-     -webkit-animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-}
-
-.home-subheading{
-     -webkit-animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
-}
-
-.home-buttons{
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    
-    -webkit-animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
-}
 

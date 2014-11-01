@@ -80,7 +80,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <!-- Hidden li included to remove active class from profile link when scrolled up past profile section -->
                         <li class="hidden">
                             <a class="page-scroll" href=""></a>
                         </li>
@@ -110,18 +110,18 @@
     <section id="profile" class="full-height">
         <div class="container">
             
-            <h2 class="heading">Profile</h2>
-            <p class="lead text-center">Shangri-La Finest Chinese Cuisine</p>
+            <h2 class="heading wow fadeInDown">Profile</h2>
+            <p class="lead text-center wow fadeInDown">Shangri-La Finest Chinese Cuisine</p>
             <hr>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <h3>About Shangri-La</h3>
                     <p>I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <img src="assets/img/tester.png" class="img-responsive" >
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <h3>Details</h3>
                    
                 <dl>
