@@ -62,7 +62,6 @@ of those sections to manage the look and feel of the site. */
     min-height: 100%;
     padding-top: 100px;
     height: auto;
-    
 }
 
 
@@ -114,10 +113,7 @@ of those sections to manage the look and feel of the site. */
 /*------------------------------------------------*/
 
 
-    .container {
-        padding: 60px 20px;
-        min-width: 280px;
-    }
+   
 
 .img-centered{
     display: block;
@@ -137,7 +133,6 @@ of those sections to manage the look and feel of the site. */
     margin-right:-4px;
 }
 .heading{
-  
     font-family: "Nashville";
     font-weight: 200;
     font-size: 54px;
@@ -232,7 +227,7 @@ hr{
 /*	Experiences Styles
 /*------------------------------------------------*/
 #experiences{
-    background-color: #F4DEBE;
+    background-color: #F3EFE0;
 }
 
 
@@ -500,7 +495,7 @@ hr{
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: #eeeeee;
+        background-color: #E5B267; /* Line Color */
         left: 50%;
         margin-left: -1.5px;
     }
@@ -533,7 +528,7 @@ hr{
         .timeline > li > .timeline-panel {
             width: 46%;
             float: left;
-            border: 1px solid #d4d4d4;
+            border: 1px solid #E5B267;  /* Panel Border Color */
             border-radius: 2px;
             padding: 20px;
             position: relative;
@@ -547,8 +542,8 @@ hr{
                 right: -15px;
                 display: inline-block;
                 border-top: 15px solid transparent;
-                border-left: 15px solid #ccc;
-                border-right: 0 solid #ccc;
+                border-left: 15px solid #E5B267; /* Arrow border  Color */
+                border-right: 0 solid #E5B267; /* Arrow border  Color */
                 border-bottom: 15px solid transparent;
                 content: " ";
             }
@@ -559,14 +554,14 @@ hr{
                 right: -14px;
                 display: inline-block;
                 border-top: 14px solid transparent;
-                border-left: 14px solid #fff;
-                border-right: 0 solid #fff;
+                border-left: 14px solid #E5B267; /* Arrow background Color */
+                border-right: 0 solid #E5B267; /* Arrow background Color */
                 border-bottom: 14px solid transparent;
                 content: " ";
             }
 
         .timeline > li > .timeline-badge {
-            color: #fff;
+            color: #fff; /* Icon Color */
             width: 50px;
             height: 50px;
             line-height: 50px;
@@ -576,7 +571,7 @@ hr{
             top: 16px;
             left: 50%;
             margin-left: -25px;
-            background-color: #999999;
+            background-color: #E5B267; /* Icon BG Color */
             z-index: 100;
             border-top-right-radius: 50%;
             border-top-left-radius: 50%;

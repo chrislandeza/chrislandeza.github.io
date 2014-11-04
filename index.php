@@ -63,7 +63,7 @@
     <section id="navigation">
         <!-- Navigation -->
         <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
-            <!-- <div class="container"> -->
+             <div class="container"> 
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -98,7 +98,7 @@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
-            <!-- </div> -->
+            </div> 
             <!-- /.container -->
         </nav>
         
@@ -144,9 +144,12 @@
     <!-- Services Section -->
     <section id="experiences" class="full-height">
         <div class="container">
+            <h2 class="heading wow fadeInDown">Shangri-La</h2>
+            <p class="lead text-center wow fadeInDown">Shangri-La Finest Chinese Cuisine</p>
+            <hr>
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Shangri-La Timeline</h1>
+                <div class="col-md-12">
+                    
                     <div class="container">
                             <div class="page-header">
                                 <h1 id="timeline">Timeline</h1>
@@ -165,7 +168,7 @@
                                   </div>
                                 </li>
                                 <li class="timeline-inverted">
-                                  <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                                  <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
