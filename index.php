@@ -145,22 +145,55 @@
     <section id="experiences" class="full-height">
         <div class="container">
             <h2 class="heading wow fadeInDown">Shangri-La</h2>
-            <p class="lead text-center wow fadeInDown">Shangri-La Finest Chinese Cuisine</p>
+            
             <hr>
+            <p class="lead wow fadeInDown">Education</p>
+            
+            <div id="education">
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>Avans Highschool</h4>
+                        <p class="experience-period">
+                            Aug 2004				- 
+                            Jun 2008			</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            <strong>Bachelor - Computer Science (Specialization: Multimedia)</strong>
+                            <span class="hidden-phone">
+                                The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+                            <span class="experience-details">
+                                <span class="location">
+                                    <span class="glyphicon glyphicon-map-marker"></span>
+                                    's-Hertogenbosch					</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <hr>
+            <p class="lead wow fadeInDown">Careers</p> <br />
             <div class="row">
                 <div class="col-md-12">
-                    
                     <div class="container">
-                            <div class="page-header">
-                                <h1 id="timeline">Timeline</h1>
-                            </div>
                             <ul class="timeline">
-                                <li>
-                                  <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <li >
+                                  <div class="timeline-badge">2014</div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                        <div class="row">
+                                            <div class="col-md-8"> 
+                                                <h4 class="timeline-company">Shangri-La Finest Chinese Cuisine</h4>
+                                                <span class="timeline-position">Assistant Programmer</span>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
+                                            </div>
+                                        </div>
+                                      
                                     </div>
                                     <div class="timeline-body">
                                       <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
