@@ -1,38 +1,31 @@
 
+// Triggers when the page finished loading..
 jQuery(window).load(function () {
     //$("body").removeClass("hidden");
 });
 
-//jQuery to collapse the navbar on scroll
+
+// Scrolling Function
 $(window).scroll(function() {
-    
-    var x = $(this).scrollTop();
-    
-   // $("#home").css('background-position', '0% ' + parseInt(-x / 1) + 'px');
-    
-
-
-//    if($(".navbar-nav li:gt(0)").hasClass('active')){
-//        $("#nav").addClass('top-nav-collapse');
-//    } else {
-//        $("#nav").removeClass('top-nav-collapse');
-//    }
-    
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+
 $(function() {
+    // Make the navigation sticky
     $("#navigation").sticky({ topSpacing: 0  });
     
+    // When the navigation becomes sticky put a collapse class on the nav (It would make the height smaller)
     $("#navigation").on('sticky-start', function() { 
         $("#nav").addClass('top-nav-collapse');
     });
     
+    // Remove the collapse class if the navigation isn't sticky
     $("#navigation").on('sticky-end', function() { 
         $("#nav").removeClass('top-nav-collapse');
     });
     
     
+    // for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var hash = this.hash;
         var $anchor = $(this);
@@ -43,10 +36,7 @@ $(function() {
         });
         event.preventDefault();
     });
-    
-   
-    
-    
+
 });
 
 jQuery(window).load(function () {

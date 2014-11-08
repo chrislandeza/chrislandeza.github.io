@@ -29,18 +29,16 @@
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target="#navigation" data-offset="80"  >
+<body data-spy="scroll" data-target="#navigation" data-offset="80"  >
     
-     <!-- Intro Section -->
+     <!-- Home Section -->
      <section id="home">
          <div  class="center-div">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
-                            <!-- logo2.png -->
                             <img src="assets/img/tester.png" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
@@ -59,7 +57,7 @@
         </div>
     </section>
     
-     
+    <!-- Sticky Navigation -->
     <section id="navigation">
         <!-- Navigation -->
         <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
@@ -101,12 +99,12 @@
             </div> 
             <!-- /.container -->
         </nav>
-        
     </section>
+    <!-- Sticky Navigation end -->
     
 
    
-    <!-- About Section -->
+    <!-- Profile Section -->
     <section id="profile" class="full-height">
         <div class="container">
             
@@ -140,24 +138,25 @@
              
         </div>
     </section>
+    <!-- Profile Section End -->
 
-    <!-- Services Section -->
+    <!-- Experiences Section -->
     <section id="experiences" class="full-height">
         <div class="container">
             <h2 class="heading wow fadeInDown">Shangri-La</h2>
             
             <hr>
-            <p class="lead wow fadeInDown">Education</p>
+            <p class="lead wow fadeIn">Education</p>
             
             <div id="education">
                 <div class="experience row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeIn">
                         <h4>Avans Highschool</h4>
                         <p class="experience-period">
                             Aug 2004				- 
                             Jun 2008			</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 wow fadeIn">
                         <p>
                             <strong>Bachelor - Computer Science (Specialization: Multimedia)</strong>
                             <span class="hidden-phone">
@@ -182,7 +181,7 @@
                             <ul class="timeline">
                                 <li >
                                   <div class="timeline-badge">2014</div>
-                                  <div class="timeline-panel">
+                                  <div class="timeline-panel wow fadeInLeft">
                                     <div class="timeline-heading">
                                         <div class="row">
                                             <div class="col-md-8"> 
@@ -202,7 +201,7 @@
                                 </li>
                                 <li class="timeline-inverted">
                                   <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
-                                  <div class="timeline-panel">
+                                  <div class="timeline-panel wow fadeInRight">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                                     </div>
@@ -284,8 +283,10 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
+    <!-- Experiences Section End -->
+    
+    
+    <!-- Skills Section -->
     <section id="contact" class="full-height">
         <div class="container">
             <div class="row">
@@ -296,6 +297,7 @@
             </div>
         </div>
     </section>
+    <!-- Skills Section End -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="assets/js/jquery-1.11.0.js"></script>
