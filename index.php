@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     
     <!-- Animate CSS -->
     <link href="assets/css/animate.css" rel="stylesheet">
@@ -39,13 +40,13 @@
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
-                            <img src="assets/img/tester.png" class="img-responsive" alt="Profile Picture">
+                            <img src="assets/img/home.jpg" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="right">
-                            <h1 class="home-heading wow fadeInUp">Shangri-La Finest Chinese Cuisine.</h1>
-                            <p class="home-subheading wow fadeInUp">The Best Restaurant in Quezon City. Wedding, Birthday, Baptismal</p>
+                            <h1 class="home-heading wow fadeInUp">HELLO, I'M CHRIS</h1>
+                            <p class="home-subheading wow fadeInUp">Welcome to my Interactive Resume.</p>
                             <div class="home-buttons wow bounceIn">
                              <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
                              <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">DOWNLOAD MENUS</a>
@@ -71,7 +72,7 @@
                     </button>
                     <a class="navbar-brand page-scroll" href="#home">
                         <!-- logo.png -->
-                        <img src="assets/img/tester.png" class="brand"> 
+                        <img src="assets/img/logo.png" class="brand"> 
                     </a>
                 </div>
 
@@ -87,7 +88,7 @@
                             <a class="page-scroll" href="#profile" class="about-section">Profile</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#experiences">Menu</a>
+                            <a class="page-scroll" href="#experiences">Experiences</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
@@ -108,33 +109,39 @@
     <section id="profile" class="full-height">
         <div class="container">
             
-            <h2 class="heading wow fadeInDown">Shangri-La</h2>
-            <p class="lead text-center wow fadeInDown">Shangri-La Finest Chinese Cuisine</p>
+            <h2 class="heading wow fadeInDown">Profile</h2>
+            <p class="lead text-center wow fadeInDown">Aspiring Full Stack Developer</p>
             <hr>
+           
             <div class="row">
                 <div class="col-md-4 wow fadeInLeft">
-                    <h3>About Shangri-La</h3>
-                    <p>I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
-                </div>
-                <div class="col-md-4 wow fadeInLeft">
-                <center>
-                    <img src="assets/img/tester.png" class="img-responsive img-centered" >
-                </center>
-                </div>
-                <div class="col-md-4 wow fadeInLeft">
-                    <h3>Details</h3>
-                   
-                <dl>
-                    <dt>Name:</dt>
-                    <dd >Shangri-La Finest Chinese Cuisine</dd>
-                    <dt>Age:</dt>
-                    <dd >21</dd>
-                    <dt>Location:</dt>
-                    <dd >Valenzuela City, Philippines</dd>
-                </dl>
+                    <h2>Chris Landeza</h2>
+                    <p><strong>Age: </strong> 21 </p>
+                    <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games . </p>
+                    <p><strong>Location: </strong> Valenzuela City, Philippines </p>
                     
+                </div><!--/col-->          
+                <div class="col-md-4 text-center wow fadeInLeft">
+                        <img src="assets/img/profile.jpg" alt="" class="center-block img-circle img-responsive">
+                        <ul class="list-inline ratings text-center" title="Ratings">
+                          <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                          <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                          <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                          <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                          <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                        </ul>
+                </div><!--/col-->
+                <div class="col-md-4 wow fadeInLeft">
+                    <h3>About Me</h3>
+                    <p>
+                        I'm an aspiring Full Stack Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things specially in my field. 
+                        I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge. I consider myself as a trainee on my own future company.
+                        I like spending time on fixing little details and complex things. my goal for these days is to work in a team with senior and junior developers so I could share my knowledge and learn from them.
+                        
+                        </p>
                 </div>
-            </div>
+                        
+            </div><!--/row-->
              
         </div>
     </section>
@@ -143,7 +150,7 @@
     <!-- Experiences Section -->
     <section id="experiences" class="full-height">
         <div class="container">
-            <h2 class="heading wow fadeInDown">Shangri-La</h2>
+            <h2 class="heading wow fadeInDown">Experiences</h2>
             
             <hr>
             <p class="lead wow fadeIn">Education</p>
@@ -151,20 +158,20 @@
             <div id="education">
                 <div class="experience row">
                     <div class="col-md-4 wow fadeIn">
-                        <h4>Avans Highschool</h4>
+                        <h4>Our Lady of Fatima University</h4>
                         <p class="experience-period">
-                            Aug 2004				- 
-                            Jun 2008			</p>
+                            <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2009 - April 2013</small>
+                        </p>
                     </div>
                     <div class="col-md-8 wow fadeIn">
                         <p>
-                            <strong>Bachelor - Computer Science (Specialization: Multimedia)</strong>
+                            <strong>Bachelor of Science in Information Technology</strong>
                             <span class="hidden-phone">
                                 The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
                             <span class="experience-details">
                                 <span class="location">
                                     <span class="glyphicon glyphicon-map-marker"></span>
-                                    's-Hertogenbosch					</span>
+                                    Valenzuela City				</span>
                             </span>
                         </p>
                     </div>
@@ -181,7 +188,7 @@
                             <ul class="timeline">
                                 <li >
                                   <div class="timeline-badge">2014</div>
-                                  <div class="timeline-panel wow fadeInLeft">
+                                  <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <div class="row">
                                             <div class="col-md-8"> 
@@ -201,7 +208,7 @@
                                 </li>
                                 <li class="timeline-inverted">
                                   <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
-                                  <div class="timeline-panel wow fadeInRight">
+                                  <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                                     </div>

@@ -152,7 +152,9 @@ of those sections to manage the look and feel of the site. */
 /*	Utility Classes
 /*------------------------------------------------*/
 
-   
+.fa-star{
+    color:#C7642D;
+}
 
 .img-centered{
     display: block;
@@ -188,7 +190,7 @@ p.lead{
     color:#727878;
     font-family: "Raleway";
     font-weight: normal;
-    color:#cb784a
+    color:#727878;
 }
 
 hr{
