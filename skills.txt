@@ -1,0 +1,30 @@
+
+
+Web Development
+PHP - 5
+HTML(5) - 5
+CSS(3) - 5
+JSON - 5
+Javascript - 5
+Jquery - 5
+Wordpress - 5
+Laravel - 5
+CodeIgniter - 5
+SEO - 5
+
+
+Programming Paradigm
+Procedural - 5
+Object Oriented - 3
+
+Database Management Systems
+MySQL
+MS Access
+MS SQL Server
+
+Operating System
+-Windows 7
+-Windows XP
+-Ubuntu
+
+

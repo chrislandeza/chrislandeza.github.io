@@ -102,6 +102,7 @@ of those sections to manage the look and feel of the site. */
     min-height: 100%;
     padding-top: 100px;
     height: auto;
+    padding-bottom: 100px;
 }
 
 
@@ -152,8 +153,14 @@ of those sections to manage the look and feel of the site. */
 /*	Utility Classes
 /*------------------------------------------------*/
 
+
+
 .fa-star{
     color:#C7642D;
+}
+.fa-asterisk{
+    color:#C7642D;
+    font-size: 12px;
 }
 
 .img-centered{
@@ -206,6 +213,18 @@ hr{
     background-color: #fff;
     /* Pull-up the about section to fill the gap when the nav-bar collapse */
     margin-top: -40px;
+}
+
+#profile .container{
+    max-width: 1280px;
+    padding: 0px 150px;
+}
+
+@media (max-width: 767px) { 
+    #profile .container{ 
+        padding: 60px 20px; min-width: 280px;
+    }
+    
 }
 
 #profile img{
@@ -265,6 +284,10 @@ hr{
 
 
 
+
+
+
+
 /*------------------------------------------------*/
 /*	Experiences Styles
 /*------------------------------------------------*/
@@ -272,11 +295,73 @@ hr{
     background-color: #F3EFE0;
 }
 
+#experiences #education{
+    max-width: 1280px;
+    padding: 0px 100px;
+}
+
+@media (max-width: 767px) { 
+    #experiences #education{ 
+        padding: 60px 20px; min-width: 280px;
+    }
+    
+}
+
+
+
+
 #education .experience { margin-bottom: 20px;}
 #education .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
 #education .experience .experience-details { display: block; margin-top: 6px; }
 #education .experience .experience-details * { color: #738F9B; }
 #education .experience .experience-details .seperator { color: #BCBCBC; }
+
+
+
+
+/*------------------------------------------------*/
+/*	abilities Styles
+/*------------------------------------------------*/
+#abilities{
+    background-color: #fff;
+    /* Pull-up the about section to fill the gap when the nav-bar collapse */
+    margin-top: -40px;
+}
+
+#abilities .container{
+    max-width: 1280px;
+    padding: 0px 150px;
+}
+
+@media (max-width: 767px) { 
+    #abilities .container{ 
+        padding: 60px 20px; min-width: 280px;
+    }
+    
+}
+
+.ability-list li{
+    padding:5px;
+}
+
+.ability-list li:hover{
+    background-color: #F2F2F2;
+}
+
+.ability-list > li > .ability-label{
+    display: inline-block;
+    width:65%;
+    font-weight: normal;
+}
+
+.ability-list > li > .ability-rating{
+    float:right;
+}
+
+.ability-rating > span{
+    color:#C7642D;
+    margin-right: 3px;
+}
 
 /*------------------------------------------------*/
 /*	Header Styles
@@ -539,7 +624,7 @@ hr{
         }
 
         .timeline > li > .timeline-panel {
-            width: 46%;
+            width: 46%; /* The width of the panel  (Note: the margin of panel from the timeline will also based on this width )*/
             float: left;
             border: 1px solid #E5B267;  /* Panel Border Color */
             border-radius: 2px;
@@ -549,9 +634,9 @@ hr{
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
         }
 
-            .timeline > li > .timeline-panel:before {
+            .timeline > li > .timeline-panel:before{
                 position: absolute;
-                top: 26px;
+                top: 10px;
                 right: -15px;
                 display: inline-block;
                 border-top: 15px solid transparent;
@@ -561,14 +646,14 @@ hr{
                 content: " ";
             }
 
-            .timeline > li > .timeline-panel:after {
+            .timeline > li > .timeline-panel:after{
                 position: absolute;
-                top: 27px;
+                top: 11px;
                 right: -14px;
                 display: inline-block;
                 border-top: 14px solid transparent;
-                border-left: 14px solid #E5B267; /* Arrow background Color */
-                border-right: 0 solid #E5B267; /* Arrow background Color */
+                border-left: 14px solid #F3EFE0; /* Arrow background Color */
+                border-right: 0 solid #F3EFE0; /* Arrow background Color */
                 border-bottom: 14px solid transparent;
                 content: " ";
             }
@@ -594,16 +679,17 @@ hr{
             color: #fff; /* Icon Color */
             font-weight:200;
             font-family: "Raleway";
-            width: 50px;
-            height: 50px;
+            width: 20px;
+            height: 20px;
             line-height: 50px;
             font-size: 1em;
             text-align: center;
             position: absolute;
             top: 16px;
             left: 50%;
-            margin-left: -25px;
+            margin-left: -9.9px;
             background-color: #E5B267; /* Icon BG Color */
+            border: 5px solid #F3EFE0;
             z-index: 100;
             border-top-right-radius: 50%;
             border-top-left-radius: 50%;
@@ -678,7 +764,7 @@ hr{
     }
 
     ul.timeline > li > .timeline-badge {
-        left: 15px;
+        left: 30px;
         margin-left: 0;
         top: 16px;
     }

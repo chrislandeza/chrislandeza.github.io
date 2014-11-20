@@ -1,3 +1,10 @@
+<?php
+    define('home_img', 'home.png');
+    define('profile_img', 'profile.png');
+    define('home_heading', 'Shangri-La Finest Chinese Cuisine'); // HELLO, I'M CHRIS
+    define('home_subheading', 'Best Chinese Restaurant in Quezon City'); // Welcome to my Interactive Resume.
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -40,13 +47,13 @@
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
-                            <img src="assets/img/home.jpg" class="img-responsive" alt="Profile Picture">
+                            <img src="assets/img/<?php echo home_img; ?>" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="right">
-                            <h1 class="home-heading wow fadeInUp">HELLO, I'M CHRIS</h1>
-                            <p class="home-subheading wow fadeInUp">Welcome to my Interactive Resume.</p>
+                            <h1 class="home-heading wow fadeInUp"><?php echo home_heading; ?></h1>
+                            <p class="home-subheading wow fadeInUp"><?php echo home_subheading; ?></p>
                             <div class="home-buttons wow bounceIn">
                              <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
                              <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">DOWNLOAD MENUS</a>
@@ -83,12 +90,17 @@
                         <li class="hidden">
                             <a class="page-scroll" href=""></a>
                         </li>
-                        
                         <li>
                             <a class="page-scroll" href="#profile" class="about-section">Profile</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#experiences">Experiences</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#abilities">abilities</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#projects">Projects</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
@@ -110,19 +122,19 @@
         <div class="container">
             
             <h2 class="heading wow fadeInDown">Profile</h2>
-            <p class="lead text-center wow fadeInDown">Aspiring Full Stack Developer</p>
+            <p class="lead text-center wow fadeInDown">Web Developer</p>
             <hr>
            
             <div class="row">
                 <div class="col-md-4 wow fadeInLeft">
                     <h2>Chris Landeza</h2>
                     <p><strong>Age: </strong> 21 </p>
-                    <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games . </p>
+                    <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games (Dota 2). </p>
                     <p><strong>Location: </strong> Valenzuela City, Philippines </p>
                     
                 </div><!--/col-->          
                 <div class="col-md-4 text-center wow fadeInLeft">
-                        <img src="assets/img/profile.jpg" alt="" class="center-block img-circle img-responsive">
+                        <img src="assets/img/<?php echo profile_img; ?>" alt="" class="center-block img-circle img-responsive">
                         <ul class="list-inline ratings text-center" title="Ratings">
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
@@ -134,11 +146,10 @@
                 <div class="col-md-4 wow fadeInLeft">
                     <h3>About Me</h3>
                     <p>
-                        I'm an aspiring Full Stack Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things specially in my field. 
-                        I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge. I consider myself as a trainee on my own future company.
-                        I like spending time on fixing little details and complex things. my goal for these days is to work in a team with senior and junior developers so I could share my knowledge and learn from them.
-                        
-                        </p>
+                        I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field). 
+                        I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge.
+                        I like spending time on fixing little details and complex things. my goal right now is to work with a team of developers so I can share and enhance my ability.
+                    </p>
                 </div>
                         
             </div><!--/row-->
@@ -150,12 +161,10 @@
     <!-- Experiences Section -->
     <section id="experiences" class="full-height">
         <div class="container">
-            <h2 class="heading wow fadeInDown">Experiences</h2>
-            
-            <hr>
-            <p class="lead wow fadeIn">Education</p>
-            
             <div id="education">
+                <h2 class="heading wow fadeInDown">Experiences</h2>
+                <hr>
+                <p class="lead wow fadeIn">Education</p>
                 <div class="experience row">
                     <div class="col-md-4 wow fadeIn">
                         <h4>Our Lady of Fatima University</h4>
@@ -167,7 +176,9 @@
                         <p>
                             <strong>Bachelor of Science in Information Technology</strong>
                             <span class="hidden-phone">
-                                The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+                                The education was simply all the basic things you need to know before you enter the world of Technology, 
+                                I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because it feels like the world is in my hand whenever I start to code.			
+                            </span>
                             <span class="experience-details">
                                 <span class="location">
                                     <span class="glyphicon glyphicon-map-marker"></span>
@@ -176,19 +187,40 @@
                         </p>
                     </div>
                 </div>
+                
+                <div class="experience row">
+                    <div class="col-md-4 wow fadeIn">
+                        <h4>Florentino Torres High School</h4>
+                        <p class="experience-period">
+                            <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> 2005 - 2009</small>
+                        </p>
+                    </div>
+                    <div class="col-md-8 wow fadeIn">
+                        <p>
+                            <strong>Secondary School</strong>
+                            <span class="hidden-phone">
+                                Enjoyed doing Physics, Chemistry and History.
+                            </span>
+                            <span class="experience-details">
+                                <span class="location">
+                                    <span class="glyphicon glyphicon-map-marker"></span>
+                                    Tondo, Manila				
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            
-            
             
             <hr>
             <p class="lead wow fadeInDown">Careers</p> <br />
+            
             <div class="row">
                 <div class="col-md-12">
-                    <div class="container">
                             <ul class="timeline">
-                                <li >
-                                  <div class="timeline-badge">2014</div>
-                                  <div class="timeline-panel">
+                                <li>
+                                    <div class="timeline-badge"></div>
+                                    <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <div class="row">
                                             <div class="col-md-8"> 
@@ -202,12 +234,24 @@
                                       
                                     </div>
                                     <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                      <p>
+                                          Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine: One of the best and has been the strongest Chinese Restaurant in Quezon City that has 1,200 seating Capacity. 
+                                          
+                                          </p>
+                                          
+                                        <p>I developed an Internal Reservation System for the Reservation staffs to cut out their workflow and make their job easy (See Features). </p>
+
+<p>I also do marketing stuffs such as Email Blasting, Social media marketing, SEO, Creating Marketing materials etc.
+
+I’ve learned lot from this company because I was able to all the 
+                                        </p>
+	
+
                                     </div>
                                   </div>
                                 </li>
                                 <li class="timeline-inverted">
-                                  <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
+                                  <div class="timeline-badge"></div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -219,13 +263,19 @@
                                   </div>
                                 </li>
                                 <li>
-                                  <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                                  <div class="timeline-badge danger"></div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                                     </div>
                                     <div class="timeline-body">
                                       <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                      
+                                     
+                                      
+                                      
+                                      wag mong sbhn na tinaboy kita ksi bka galit na maramdaman ko sayo dahil sa mga sinasabi mo..
+                                      db everytime na bumabalik ka skn 
                                     </div>
                                   </div>
                                 </li>
@@ -240,7 +290,7 @@
                                   </div>
                                 </li>
                                 <li>
-                                  <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                                  <div class="timeline-badge info"></div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -273,8 +323,9 @@
                                     </div>
                                   </div>
                                 </li>
+                                
                                 <li class="timeline-inverted">
-                                  <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                                  <div class="timeline-badge success"></div>
                                   <div class="timeline-panel">
                                     <div class="timeline-heading">
                                       <h4 class="timeline-title">Mussum ipsum cacilds</h4>
@@ -285,7 +336,7 @@
                                   </div>
                                 </li>
                             </ul>
-                        </div>
+                        
                 </div>
             </div>
         </div>
@@ -293,7 +344,103 @@
     <!-- Experiences Section End -->
     
     
-    <!-- Skills Section -->
+    
+    
+    <!-- Abilities Section -->
+    <section id="abilities" class="full-height">
+        <div class="container">
+            <h2 class="heading wow fadeInDown">Shangri-La</h2>
+            <p class="lead text-center wow fadeInDown">Chinese Restaurant</p>
+            <hr>
+            <p class="lead wow fadeIn">Other Programming Language</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled ability-list">
+                        <li>
+                            <span class="ability-label">Visual Basic</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span>  
+                                <span class="glyphicon glyphicon-star-empty"></span>  
+                            </div>
+                        </li>
+                        <li>
+                            <span class="ability-label">Java</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star-empty"></span> 
+                                <span class="glyphicon glyphicon-star-empty"></span> 
+                            </div>
+                        </li>
+                        <li>
+                            <span class="ability-label">C++</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                            </div>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="col-md-6">
+                    <ul class="list-unstyled ability-list">
+                      
+                        <li>
+                            <span class="ability-label">C#</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="ability-label">Assembly Language</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star"></span> 
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- Abilities Section End -->
+    
+    
+    <!-- Projects Section -->
+    <section id="projects" class="full-height">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Project Section</h1>
+                    <h2>Shangri-La Finest Chinese Cuisine</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section End -->
+    
+    
+    
+    <!-- Contact Section -->
     <section id="contact" class="full-height">
         <div class="container">
             <div class="row">
@@ -304,7 +451,7 @@
             </div>
         </div>
     </section>
-    <!-- Skills Section End -->
+    <!-- Contact Section End -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="assets/js/jquery-1.11.0.js"></script>
