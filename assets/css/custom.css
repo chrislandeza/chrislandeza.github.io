@@ -341,7 +341,7 @@ hr{
 }
 
 .ability-list li{
-    padding:5px;
+    padding:2px;
 }
 
 .ability-list li:hover{
@@ -581,6 +581,8 @@ hr{
     padding: 20px 0 20px;
     position: relative;
 }
+
+
 
     .timeline:before {
         top: 0;

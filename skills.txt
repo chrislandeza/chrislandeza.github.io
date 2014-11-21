@@ -1,30 +1,63 @@
-
-
 Web Development
 PHP - 5
 HTML(5) - 5
 CSS(3) - 5
-JSON - 5
-Javascript - 5
-Jquery - 5
-Wordpress - 5
-Laravel - 5
-CodeIgniter - 5
-SEO - 5
+AJAX - 5
+JSON - 4
+Javascript - 4
+Jquery - 4
+Bootstrap (Front-end Framework) - 4 
+Wordpress - 3
+SEO - 3
+PDO - 3
+MySQLi - 2
+Laravel - 2
+CodeIgniter - 2
+Drupal - 1
+ASP.NET - 1
+
+Database Management Systems
+MySQL - 5
+MS Access - 4
+MS SQL Server - 2
 
 
 Programming Paradigm
 Procedural - 5
 Object Oriented - 3
 
-Database Management Systems
-MySQL
-MS Access
-MS SQL Server
 
 Operating System
--Windows 7
--Windows XP
--Ubuntu
+-Windows 7 - 5
+-Windows XP - 5
+-Ubuntu - 2
 
+
+Tools
+-Wamp - 5
+-XAMPP - 5
+-phpMyAdmin - 5
+-Filezilla - 5
+-Dreamweaver - 5
+-Notepad++ - 5
+-MS Office (Word, PowerPoint, Excel) - 5
+-Command Line - 4
+
+
+-Firebug - 4
+-Netbeans - 4
+-Photoshop - 4
+-Visual Studio (2008, 2010) - 3
+-After Effects - 3
+-Vegas Pro - 3
+-Git - 2
+-Sublime Text - 2
+
+
+Other Programming Languages
+Visual Basic - 4
+Java - 2
+C++ - 2
+C# - 2
+Assembly Language - 1
 
