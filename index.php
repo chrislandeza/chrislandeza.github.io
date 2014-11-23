@@ -1,8 +1,8 @@
 <?php
-    define('home_img', 'home.png');
-    define('profile_img', 'profile.png');
-    define('home_heading', 'Shangri-La Finest Chinese Cuisine'); // HELLO, I'M CHRIS
-    define('home_subheading', 'Best Chinese Restaurant in Quezon City'); // Welcome to my Interactive Resume.
+    define('home_img', 'home22.png');
+    define('profile_img', 'profile.jpg');
+    define('home_heading', "HELLO, I'M CHRIS"); // HELLO, I'M CHRIS
+    define('home_subheading', 'Welcome to my Website'); // Welcome to my Interactive Resume.
 ?>
 
 <!DOCTYPE html>
@@ -121,8 +121,9 @@
     <section id="profile" class="full-height">
         <div class="container">
             
-            <h2 class="heading wow fadeInDown">Profile</h2>
-            <p class="lead text-center wow fadeInDown">Web Developer</p>
+            <h2 class="heading wow bounceIn">Profile</h2>
+            <p class="lead text-center wow fadeInLeft">Web Developer</p>
+            
             <hr>
            
             <div class="row">
@@ -161,18 +162,21 @@
     <!-- Experiences Section -->
     <section id="experiences" class="full-height">
         <div class="container">
-            <div id="education">
-                <h2 class="heading wow fadeInDown">Experiences</h2>
+             <h2 class="heading wow fadeInDown">Experiences</h2>
                 <hr>
-                <p class="lead wow fadeIn">Education</p>
-                <div class="experience row">
-                    <div class="col-md-4 wow fadeIn">
+                
+            <div id="education">
+                <div class="wrap wow fadeInLeft">
+                    <p class="lead">Education</p>
+                </div>
+                <div class="experience row wow fadeIn">
+                    <div class="col-md-4 ">
                         <h4>Our Lady of Fatima University</h4>
                         <p class="experience-period">
                             <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2009 - April 2013</small>
                         </p>
                     </div>
-                    <div class="col-md-8 wow fadeIn">
+                    <div class="col-md-8">
                         <p>
                             <strong>Bachelor of Science in Information Technology</strong>
                             <span class="hidden-phone">
@@ -188,14 +192,14 @@
                     </div>
                 </div>
                 
-                <div class="experience row">
-                    <div class="col-md-4 wow fadeIn">
+                <div class="experience row wow fadeIn">
+                    <div class="col-md-4 ">
                         <h4>Florentino Torres High School</h4>
                         <p class="experience-period">
                             <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> 2005 - 2009</small>
                         </p>
                     </div>
-                    <div class="col-md-8 wow fadeIn">
+                    <div class="col-md-8 ">
                         <p>
                             <strong>Secondary School</strong>
                             <span class="hidden-phone">
@@ -213,143 +217,85 @@
             </div>
             
             <hr>
-            <p class="lead wow fadeInDown">Careers</p> <br />
             
-            <div class="row">
-                <div class="col-md-12">
-                            <ul class="timeline">
-                                <li>
-                                    <div class="timeline-badge"></div>
-                                    <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <div class="row">
-                                            <div class="col-md-8"> 
-                                                <h4 class="timeline-company">Shangri-La Finest Chinese Cuisine</h4>
-                                                <span class="timeline-position">Assistant Programmer</span>
+            <div id="xp-careers">
+                <div class="wrap wow fadeInLeft">
+                    <p class="lead">Careers</p> <br />
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge info"></div>
+                                        <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <div class="row">
+                                                <div class="col-md-8"> 
+                                                    <h4 class="timeline-company">Shangri-La Finest Chinese Cuisine</h4>
+                                                    <span class="timeline-position">Assistant Programmer</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
+                                                </div>
                                             </div>
-                                            <div class="col-md-4">
-                                                <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
-                                            </div>
+
                                         </div>
-                                      
-                                    </div>
-                                        
-                                    <div class="timeline-body">
-                                     
-                                    <p>
-                                          Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine: One of the best and has been the strongest Chinese Restaurant in Quezon City that has 1,200 seating Capacity. 
 
-                                    </p>
-                                          
-                                        <p>I developed an Internal Reservation System for the Reservation staffs to cut out their workflow and to make their job easy (See Features). </p>
+                                        <div class="timeline-body">
 
-<p>I also do marketing stuffs such as Email Blasting, Social media marketing, SEO, Creating Marketing materials etc.
+                                        <p>
+                                              Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine: One of the best and has been the strongest Chinese Restaurant in Quezon City that has 1,200 seating Capacity. 
+
                                         </p>
-	
 
-                                    </div>
-                                  </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                  <div class="timeline-badge"></div>
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <div class="row">
-                                            <div class="col-md-8"> 
-                                                <h4 class="timeline-company">PLDT - Valenzuela</h4>
-                                                <span class="timeline-position">Internship</span>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
+                                            <p>I developed an Internal Reservation System for the Reservation staffs to cut out their workflow and to make their job easy (See Features). </p>
+
+    <p>I also do marketing stuffs such as Email Blasting, Social media marketing, SEO, Creating Marketing materials etc.
+                                            </p>
+
+
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                      <div class="timeline-badge info"></div>
+                                      <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <div class="row">
+                                                <div class="col-md-8"> 
+                                                    <h4 class="timeline-company">PLDT - Valenzuela</h4>
+                                                    <span class="timeline-position">Internship</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                      <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="timeline-badge danger"></div>
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                      
-                                     
-                                      
-                                      
-                                      wag mong sbhn na tinaboy kita ksi bka galit na maramdaman ko sayo dahil sa mga sinasabi mo..
-                                      db everytime na bumabalik ka skn 
-                                    </div>
-                                  </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="timeline-badge info"></div>
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                      <hr>
-                                      <div class="btn-group">
-                                        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                                          <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu" role="menu">
-                                          <li><a href="#">Action</a></li>
-                                          <li><a href="#">Another action</a></li>
-                                          <li><a href="#">Something else here</a></li>
-                                          <li class="divider"></li>
-                                          <li><a href="#">Separated link</a></li>
-                                        </ul>
+                                        <div class="timeline-body">
+                                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                          <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                                        </div>
                                       </div>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                    </div>
-                                  </div>
-                                </li>
-                                
-                                <li class="timeline-inverted">
-                                  <div class="timeline-badge success"></div>
-                                  <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                      <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                    </div>
-                                  </div>
-                                </li>
-                            </ul>
-                        
+                                    </li>
+
+                                </ul>
+
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <!-- Experiences Section End -->
+    
+    <section class="fancy-quotes">
+        <div class="container">
+            <div class="row">
+                wada
+            </div>
+        </div>
+        
+    </section>
     
     
     
@@ -357,16 +303,17 @@
     <!-- Abilities Section -->
     <section id="abilities" class="full-height">
         <div class="container">
-            <h2 class="heading wow fadeInDown">Shangri-La</h2>
-            <p class="lead text-center wow fadeInDown">Chinese Restaurant</p>
+            <h2 class="heading wow fadeInDown">Abilities</h2>
+            <p class="lead text-center wow fadeInDown">Some fancy quotes here..</p>
             <hr>
             
-            <p class="lead wow fadeIn">Web Development</p>
+            <p class="lead wow lightSpeedIn">Web Development</p>
+            
             <div class="row">
                 <!-- Web Dev - skill left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
-                        <li>
+                        <li class="wow flash">
                             <span class="ability-label">PHP</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span> 

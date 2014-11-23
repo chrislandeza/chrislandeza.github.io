@@ -12,7 +12,7 @@ $(window).scroll(function() {
 
 $(function() {
     // Make the navigation sticky
-    $("#navigation").sticky({ topSpacing: 0  });
+    $("#navigation").sticky({ topSpacing: 0 });
     
     // When the navigation becomes sticky put a collapse class on the nav (It would make the height smaller)
     $("#navigation").on('sticky-start', function() { 
@@ -27,6 +27,7 @@ $(function() {
     
     // for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
+        // set the right hash
         var hash = this.hash;
         var $anchor = $(this);
         $('html, body').stop().animate({
