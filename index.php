@@ -1,8 +1,8 @@
 <?php
     define('home_img', 'home22.png');
-    define('profile_img', 'profile.jpg');
-    define('home_heading', "HELLO, I'M CHRIS"); // HELLO, I'M CHRIS
-    define('home_subheading', 'Welcome to my Website'); // Welcome to my Interactive Resume.
+    define('profile_img', 'profile22.jpg');
+    define('home_heading', "Shangri-La Finest Chinese Cuisine"); // HELLO, I'M CHRIS
+    define('home_subheading', 'Best Chinese Restaurant in Quezon City'); // Welcome to my Interactive Resume / Welcome to my Website.
 ?>
 
 <!DOCTYPE html>
@@ -85,7 +85,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <!-- Hidden li included to remove active class from profile link when scrolled up past profile section -->
                         <li class="hidden">
                             <a class="page-scroll" href=""></a>
@@ -166,9 +166,9 @@
                 <hr>
                 
             <div id="education">
-                <div class="wrap wow fadeInLeft">
-                    <p class="lead">Education</p>
-                </div>
+                
+                    <p class="sub wow fadeInLeft">Education</p>
+              
                 <div class="experience row wow fadeIn">
                     <div class="col-md-4 ">
                         <h4>Our Lady of Fatima University</h4>
@@ -219,9 +219,9 @@
             <hr>
             
             <div id="xp-careers">
-                <div class="wrap wow fadeInLeft">
-                    <p class="lead">Careers</p> <br />
-                </div>
+                
+                <p class="sub wow fadeInLeft">Careers</p> <br />
+                
                 <div class="row">
                     <div class="col-md-12">
                                 <ul class="timeline">
@@ -291,7 +291,7 @@
     <section class="fancy-quotes">
         <div class="container">
             <div class="row">
-                wada
+                Fancy Quotes
             </div>
         </div>
         
@@ -307,13 +307,14 @@
             <p class="lead text-center wow fadeInDown">Some fancy quotes here..</p>
             <hr>
             
-            <p class="lead wow lightSpeedIn">Web Development</p>
-            
+           
+            <p class="sub wow fadeInLeft">Web Development</p>
+                      
             <div class="row">
                 <!-- Web Dev - skill left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
-                        <li class="wow flash">
+                        <li>
                             <span class="ability-label">PHP</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span> 
@@ -492,7 +493,7 @@
             <br />
             
             <!-- DBMS Start -->
-            <p class="lead wow fadeIn">Database Management Systems</p>
+            <p class="sub wow fadeInLeft">Database Management Systems</p>
             <div class="row">
                 <!-- DBMS - skill left -->
                 <div class="col-md-6">
@@ -546,7 +547,7 @@
             <br />
             
             <!-- Programming Paradigm Start -->
-            <p class="lead wow fadeIn">Programming Paradigm</p>
+            <p class="sub wow fadeInLeft">Programming Paradigm</p>
             <div class="row">
                 <!-- Programming Paradigm - skill left -->
                 <div class="col-md-6">
@@ -588,7 +589,7 @@
             <br />
             
             <!-- Operating Systems Start -->
-            <p class="lead wow fadeIn">Operating Systems</p>
+            <p class="sub wow fadeInLeft">Operating Systems</p>
             <div class="row">
                 <!-- Operating Systems - skill left -->
                 <div class="col-md-6">
@@ -640,7 +641,7 @@
             <br />
             
             <!-- Tools Start -->
-            <p class="lead wow fadeIn">Tools</p>
+            <p class="sub wow fadeInLeft">Tools</p>
             <div class="row">
                 <!-- Tools - left -->
                 <div class="col-md-6">
