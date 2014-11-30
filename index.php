@@ -34,7 +34,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="assets/js/modernizr.js"></script>
 </head>
 
 
@@ -181,10 +181,10 @@
                             <strong>Bachelor of Science in Information Technology</strong>
                             <span class="hidden-phone">
                                 The education was simply all the basic things you need to know before you enter the world of Technology, 
-                                I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because it feels like the world is in my hand whenever I start to code.			
+                                I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because coding makes me feel AWESOME.			
                             </span>
-                            <span class="experience-details">
                                 <span class="location">
+                            <span class="experience-details">
                                     <span class="glyphicon glyphicon-map-marker"></span>
                                     Valenzuela City				</span>
                             </span>
@@ -227,7 +227,7 @@
                                 <ul class="timeline">
                                     <li>
                                         <div class="timeline-badge info"></div>
-                                        <div class="timeline-panel">
+                                        <div class="timeline-panel wow fadeInUp">
                                         <div class="timeline-heading">
                                             <div class="row">
                                                 <div class="col-md-8"> 
@@ -259,7 +259,7 @@
                                     </li>
                                     <li class="timeline-inverted">
                                       <div class="timeline-badge info"></div>
-                                      <div class="timeline-panel">
+                                      <div class="timeline-panel wow fadeInUp">
                                         <div class="timeline-heading">
                                             <div class="row">
                                                 <div class="col-md-8"> 
@@ -307,521 +307,544 @@
             <p class="lead text-center wow fadeInDown">Some fancy quotes here..</p>
             <hr>
             
+            <div class="wow zoomIn">
+                <p class="sub">Web Development</p>
+                <div class="row">
+                    <!-- Web Dev - skill left -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">PHP</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">HTML(5)</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">CSS(3)</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">AJAX</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Javascript</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">jQuery</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">JSON</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Bootstrap (Front-end Framework)</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--// Web Dev - skill left -->
+
+
+                    <!-- Web Dev - skill right -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Wordpress</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">SEO</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">PDO</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">MySQLi</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Laravel</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">CodeIgniter</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Drupal</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">ASP.NET</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// Web Dev - skill right end -->
+
+                </div> <!--// Web Dev Skills end -->
+                
+            </div>
            
-            <p class="sub wow fadeInLeft">Web Development</p>
-                      
-            <div class="row">
-                <!-- Web Dev - skill left -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">PHP</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">HTML(5)</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">CSS(3)</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">AJAX</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Javascript</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">jQuery</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">JSON</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Bootstrap (Front-end Framework)</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!--// Web Dev - skill left -->
-                
-                
-                <!-- Web Dev - skill right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Wordpress</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">SEO</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">PDO</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">MySQLi</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Laravel</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">CodeIgniter</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Drupal</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">ASP.NET</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--// Web Dev - skill right end -->
-                
-            </div> <!--// Web Dev Skills end -->
             
             <br />
+            
+            <div class="wow zoomIn">
+                <p class="sub">Database Management Systems</p>
+                <div class="row">
+                    <!-- DBMS - skill left -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">MySQL</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">MS Access</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--// DBMS - skill left -->
+
+
+                    <!-- DBMS - skill right -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">MS SQL Server</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// DBMS - skill right end -->
+
+                </div>
+                <!--// DBMS End -->
+            
+            </div>
             
             <!-- DBMS Start -->
-            <p class="sub wow fadeInLeft">Database Management Systems</p>
-            <div class="row">
-                <!-- DBMS - skill left -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">MySQL</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">MS Access</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!--// DBMS - skill left -->
-                
-                
-                <!-- DBMS - skill right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">MS SQL Server</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--// DBMS - skill right end -->
-                
-            </div>
-            <!--// DBMS End -->
+            
             
             <br />
             
-            <!-- Programming Paradigm Start -->
-            <p class="sub wow fadeInLeft">Programming Paradigm</p>
-            <div class="row">
-                <!-- Programming Paradigm - skill left -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Procedural</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        
-                    </ul>
+            <div class="wow zoomIn">
+                <!-- Programming Paradigm Start -->
+                <p class="sub wow fadeInLeft">Programming Paradigm</p>
+                <div class="row">
+                    <!-- Programming Paradigm - skill left -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Procedural</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--// Programming Paradigm - skill left -->
+
+                    <!-- Programming Paradigm - skill right -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Object Oriented</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// Programming Paradigm - skill right end -->
                 </div>
-                <!--// Programming Paradigm - skill left -->
+                <!--// Programming Paradigm End -->
                 
-                <!-- Programming Paradigm - skill right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Object Oriented</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--// Programming Paradigm - skill right end -->
             </div>
-            <!--// Programming Paradigm End -->
+            
+            
             
             <br />
             
-            <!-- Operating Systems Start -->
-            <p class="sub wow fadeInLeft">Operating Systems</p>
-            <div class="row">
-                <!-- Operating Systems - skill left -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Windows 7</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Windows XP</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        
-                    </ul>
+            <div class="wow zoomIn">
+                <!-- Operating Systems Start -->
+                <p class="sub wow fadeInLeft">Operating Systems</p>
+                <div class="row">
+                    <!-- Operating Systems - skill left -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Windows 7</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Windows XP</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--// Operating Systems - skill left -->
+
+                    <!-- Operating Systems - skill right -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Ubuntu</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// Operating Systems - skill right end -->
                 </div>
-                <!--// Operating Systems - skill left -->
+                <!--// Operating Systems End -->
                 
-                <!-- Operating Systems - skill right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Ubuntu</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--// Operating Systems - skill right end -->
             </div>
-            <!--// Operating Systems End -->
+            
             
             <br />
             
-            <!-- Tools Start -->
-            <p class="sub wow fadeInLeft">Tools</p>
-            <div class="row">
-                <!-- Tools - left -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">WAMP</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>  
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">XAMPP</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">phpMyAdmin</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Filezilla</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Dreamweaver</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Notepad++</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">MS Office (Word, PowerPoint, Excel)</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Command Line</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--// Tools -  left end -->
+            
+            <div class="wow zoomIn">
+                 <!-- Tools Start -->
+                <p class="sub wow fadeInLeft">Tools</p>
+                <div class="row">
+                    <!-- Tools - left -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">WAMP</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>  
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">XAMPP</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">phpMyAdmin</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Filezilla</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Dreamweaver</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Notepad++</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">MS Office (Word, PowerPoint, Excel)</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Command Line</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// Tools -  left end -->
+
+
+                    <!-- Tools - right -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled ability-list">
+                            <li>
+                                <span class="ability-label">Firebug</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Netbeans</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Photoshop</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Visual Studio (2008, 2010)</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">After Effects</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Vegas Pro 10</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Git</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+
+                                </div>
+                            </li>
+                            <li>
+                                <span class="ability-label">Sublime Text</span>
+                                <div class="ability-rating">
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--// Tools - right end -->
+
+                </div> 
+                <!--// Tools end -->
                 
-                
-                <!-- Tools - right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-                        <li>
-                            <span class="ability-label">Firebug</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Netbeans</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Photoshop</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Visual Studio (2008, 2010)</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">After Effects</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Vegas Pro 10</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Git</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ability-label">Sublime Text</span>
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star"></span> 
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!--// Tools - right end -->
-                
-            </div> 
-            <!--// Tools end -->
+            </div>
+            
+            
+           
             
             
         </div>
