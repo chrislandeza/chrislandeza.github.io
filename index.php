@@ -1,8 +1,8 @@
 <?php
-    define('home_img', 'home22.png');
-    define('profile_img', 'profile22.jpg');
-    define('home_heading', "Shangri-La Finest Chinese Cuisine"); // HELLO, I'M CHRIS
-    define('home_subheading', 'Best Chinese Restaurant in Quezon City'); // Welcome to my Interactive Resume / Welcome to my Website.
+    define('home_img', 'x.png');
+    define('profile_img', 'x.jpg');
+    define('home_heading', "Shangri-la Finest Chinese Cuisine"); // HELLO, I'M CHRIS
+    define('home_subheading', 'Welcome to my Website'); // Welcome to my Interactive Resume.
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="assets/js/modernizr.js"></script>
+
 </head>
 
 
@@ -291,7 +291,7 @@
     <section class="fancy-quotes">
         <div class="container">
             <div class="row">
-                Fancy Quotes
+                wada
             </div>
         </div>
         
@@ -299,8 +299,7 @@
     
     
     
-    
-    <!-- Abilities Section -->
+   <!-- Abilities Section -->
     <section id="abilities" class="full-height">
         <div class="container">
             <h2 class="heading wow fadeInDown">Abilities</h2>

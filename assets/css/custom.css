@@ -155,15 +155,14 @@ of those sections to manage the look and feel of the site. */
 
 .fancy-quotes{
     min-height: 30%;
-    padding: 100px;
- 
-    text-align: center;
-    color: #fff;
+    padding-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
 }
 
 .wrap {
-    width: 20%;
-    width: auto;
+    max-width: 20%;
+
 }
 
 
@@ -212,15 +211,8 @@ of those sections to manage the look and feel of the site. */
 p.lead{
     color:#727878;
     font-family: "Raleway";
-    font-weight: 200;
- 
-}
-p.sub{
-    color:#434242;
     font-weight: normal;
-    font-size:19px;
-    display: table;
-    width: auto;
+    color:#727878;
 }
 
 hr{
@@ -332,6 +324,7 @@ hr{
 }
 
 
+
 #education > div:nth-child(1){
     
 }
@@ -352,12 +345,11 @@ hr{
 #education .experience .experience-details .seperator { color: #BCBCBC; }
 
 
+
 #xp-careers > div:nth-child(1){
-     -webkit-animation-delay: 0.1s;
-    -moz-animation-delay: 0.1s;
+     -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
 }
-
-
 
 /*------------------------------------------------*/
 /*	abilities Styles
@@ -648,6 +640,7 @@ hr{
 
 
 
+
 /*------------------------------------------------*/
 /*	Timeline Styles
 /*------------------------------------------------*/
@@ -709,10 +702,6 @@ hr{
             position: relative;
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-            
-            -moz-animation-duration: 1s;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
         }
 
             .timeline > li > .timeline-panel:before{
@@ -868,4 +857,3 @@ hr{
             right: auto;
         }
 }
-
