@@ -17,7 +17,7 @@
     <meta name="author" content="">
 
     <title>Web Developer and Designer - Chris Landeza</title>
-
+    <link href="assets/css/normalize.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -147,10 +147,10 @@
                 <div class="col-md-4 wow fadeInLeft">
                     <h3>About Me</h3>
                     <p>
-                        I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field). 
-                        I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge.
-                        I like spending time on fixing little details and complex things. my goal right now is to work with a team of developers so I can share and enhance my ability.
+                       I'm an Aspiring Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field). 
                     </p>
+                    <p>I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge.</p>
+                    <p>I like spending time on fixing little details and complex things. my goal right now is to work with a team of developers so I can share and enhance my ability.</p>
                 </div>
                         
             </div><!--/row-->
@@ -854,12 +854,34 @@
     <!-- Projects Section -->
     <section id="projects" class="full-height">
         <div class="container">
+             <h2 class="heading wow fadeInDown">Projects</h2>
+                <hr>
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Project Section</h1>
-                    <h2>Shangri-La Finest Chinese Cuisine</h2>
+                
+                <div class="col-md-6 col-sm-12 col-xs-12 grid">
+                    <figure class="effect-bubba">
+						<img src="assets/img/projects/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Fresh <span>Bubba</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
                 </div>
+                
+                <div class="col-md-6 col-sm-12 col-xs-12 grid">
+                    <figure class="effect-bubba">
+						<img src="assets/img/projects/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Fresh <span>Bubba</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                </div>
+                
             </div>
+                
         </div>
     </section>
     <!-- Projects Section End -->
