@@ -857,7 +857,16 @@
              <h2 class="heading wow fadeInDown">Projects</h2>
                 <hr>
             <div class="row">
-                
+                <div class="col-md-6 col-sm-12 col-xs-12 grid">
+                    <figure class="effect-bubba">
+						<img src="assets/img/projects/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Fresh Bubba</h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 grid">
                     <figure class="effect-bubba">
 						<img src="assets/img/projects/2.jpg" alt="img02"/>
@@ -868,20 +877,7 @@
 						</figcaption>			
 					</figure>
                 </div>
-                
-                <div class="col-md-6 col-sm-12 col-xs-12 grid">
-                    <figure class="effect-bubba">
-						<img src="assets/img/projects/2.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Fresh <span>Bubba</span></h2>
-							<p>Bubba likes to appear out of thin air.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-                </div>
-                
             </div>
-                
         </div>
     </section>
     <!-- Projects Section End -->
