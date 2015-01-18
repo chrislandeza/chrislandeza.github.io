@@ -241,6 +241,32 @@ hr{
     
 }
 
+
+/*------------------------------------------------*/
+/*	Contact Styles
+/*------------------------------------------------*/
+#contact{
+    background-color: #434242;
+    /* Pull-up the about section to fill the gap when the nav-bar collapse */
+    margin-top: -40px;
+}
+
+#contact .container{
+    max-width: 1280px;
+    padding: 0px 150px;
+}
+
+#contact .container .heading{
+    color: #fff;
+}
+
+@media (max-width: 767px) { 
+    #contact .container{ 
+        padding: 60px 20px; min-width: 280px;
+    }
+    
+}
+
 #profile img{
     width:100%;
     max-width:246px;

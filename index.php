@@ -1,7 +1,7 @@
 <?php
     define('home_img', 'x.png');
     define('profile_img', 'x.jpg');
-    define('home_heading', "Shangri-la Finest Chinese Cuisine"); // HELLO, I'M CHRIS
+    define('home_heading', "HELLOM, I'M CHRIS"); // HELLO, I'M CHRIS
     define('home_subheading', 'Welcome to my Website'); // Welcome to my Interactive Resume.
 ?>
 
@@ -37,7 +37,7 @@
 
 </head>
 
-
+    
 <body data-spy="scroll" data-target="#navigation" data-offset="80"  >
     
      <!-- Home Section -->
@@ -47,7 +47,7 @@
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
-                            <img src="assets/img/<?php echo home_img; ?>" class="img-responsive" alt="Profile Picture">
+                            <img src="assets/img/home.png" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -56,7 +56,7 @@
                             <p class="home-subheading wow fadeInUp"><?php echo home_subheading; ?></p>
                             <div class="home-buttons wow bounceIn">
                              <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
-                             <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">DOWNLOAD MENUS</a>
+                             <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">View my Blog</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                     
                 </div><!--/col-->          
                 <div class="col-md-4 text-center wow fadeInLeft">
-                        <img src="assets/img/<?php echo profile_img; ?>" alt="" class="center-block img-circle img-responsive">
+                    <img src="assets/img/profile.jpg" alt="" class="center-block img-circle img-responsive">
                         <ul class="list-inline ratings text-center" title="Ratings">
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
@@ -307,7 +307,7 @@
             <hr>
             
             <div class="wow zoomIn">
-                <p class="sub">Web Development</p>
+                <p class="sub wow fadeInLeft">Web Development</p>
                 <div class="row">
                     <!-- Web Dev - skill left -->
                     <div class="col-md-6">
@@ -494,7 +494,7 @@
             <br />
             
             <div class="wow zoomIn">
-                <p class="sub">Database Management Systems</p>
+                <p class="sub wow fadeInLeft">Database Management Systems</p>
                 <div class="row">
                     <!-- DBMS - skill left -->
                     <div class="col-md-6">
@@ -886,14 +886,10 @@
     
     <!-- Contact Section -->
     <section id="contact" class="full-height">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                    <h2>Shangri-La Finest Chinese Cuisine</h2>
-                </div>
-            </div>
-        </div>
+          <div class="container">
+             <h2 class="heading wow fadeInDown">Contact</h2>
+                <hr>
+          </div>
     </section>
     <!-- Contact Section End -->
 
