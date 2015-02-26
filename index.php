@@ -250,18 +250,12 @@
                                         </div>
 
                                         <div class="timeline-body">
+<p>Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine: One of the best and has been the strongest Chinese Restaurant in Quezon City that has 1,200 seating Capacity.</p>
 
-                                        <p>
-                                              Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine: One of the best and has been the strongest Chinese Restaurant in Quezon City that has 1,200 seating Capacity. 
+<p>I developed an Internal Reservation System for the Reservation staffs which helps them manage restaurant booking and reservation, cut out their workflow and to make their job easy (Testing Stage).</p>
 
-                                        </p>
-
-                                            <p>I developed an Internal Reservation System for the Reservation staffs to cut out their workflow and to make their job easy (See Features). </p>
-
-    <p>I also do marketing stuffs such as Email Blasting, Social media marketing, SEO, Creating Marketing materials etc.
-                                            </p>
-
-
+<p>I'm also responsible for creating marketing materials (posters, tarpaulin etc.),
+managing our website and social media accounts.</p>
                                         </div>
                                       </div>
                                     </li>
