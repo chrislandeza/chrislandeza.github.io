@@ -1,9 +1,3 @@
-<?php
-    define('home_img', 'x.png');
-    define('profile_img', 'x.jpg');
-    define('home_heading', "HELLOM, I'M CHRIS"); // HELLO, I'M CHRIS
-    define('home_subheading', 'Welcome to my Website'); // Welcome to my Interactive Resume.
-?>
 
 <!DOCTYPE html>
 <html lang="en" >
@@ -20,7 +14,7 @@
     <link href="assets/css/normalize.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     
     <!-- Animate CSS -->
     <link href="assets/css/animate.css" rel="stylesheet">
@@ -52,8 +46,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="right">
-                            <h1 class="home-heading wow fadeInUp"><?php echo home_heading; ?></h1>
-                            <p class="home-subheading wow fadeInUp"><?php echo home_subheading; ?></p>
+                            <h1 class="home-heading wow fadeInUp">HELLO, I'M CHRIS</h1>
+                            <p class="home-subheading wow fadeInUp">Welcome to my Website</p>
                             <div class="home-buttons wow bounceIn">
                              <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
                              <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">View my Blog</a>
@@ -127,14 +121,7 @@
             <hr>
            
             <div class="row">
-                <div class="col-md-4 wow fadeInLeft">
-                    <h2>Chris Landeza</h2>
-                    <p><strong>Age: </strong> 21 </p>
-                    <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games (Dota 2). </p>
-                    <p><strong>Location: </strong> Valenzuela City, Philippines </p>
-                    
-                </div><!--/col-->          
-                <div class="col-md-4 text-center wow fadeInLeft">
+                 <div class="col-md-6 text-center wow fadeInLeft">
                     <img src="assets/img/profile.jpg" alt="" class="center-block img-circle img-responsive">
                         <ul class="list-inline ratings text-center" title="Ratings">
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
@@ -144,16 +131,30 @@
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                         </ul>
                 </div><!--/col-->
-                <div class="col-md-4 wow fadeInLeft">
-                    <h3>About Me</h3>
-                    <p>
-                       I'm an Aspiring Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field). 
-                    </p>
-                    <p>I devoted almost 4 hours of my everyday life reading articles and watching video tutorials to expand my knowledge.</p>
-                    <p>I like spending time on fixing little details and complex things. my goal right now is to work with a team of developers so I can share and enhance my ability.</p>
-                </div>
+                
+                <div class="col-md-6 wow fadeInLeft">
+                    <h2>Chris Landeza</h2>
+                    <p><strong>Age: </strong> 21 </p>
+                    <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games (Dota 2). </p>
+                    <p><strong>Location: </strong> Valenzuela City, Philippines </p>
+                    
+                </div><!--/col-->          
+               
+               
                         
             </div><!--/row-->
+            <div class="row">
+                 <div class="col-md-12 wow fadeInLeft">
+                    <p>I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field).</p>
+
+<p>I have over 4 years experience in developing custom web application; developing everything from your personal websites to a small business web application. I also do marketing stuffs such as Social media marketing, SEO, Creating Marketing materials etc.</p>
+
+<p>I devoted at least 3 hours of my everyday life reading articles and watching video tutorials to expand my knowledge. I love spending time on fixing little details and optimizing applications - because to me <b>there's always room for improvement</b>.</p>
+
+                 
+                </div>
+                
+            </div>
              
         </div>
     </section>
@@ -167,7 +168,7 @@
                 
             <div id="education">
                 
-                    <p class="sub wow fadeInLeft">Education</p>
+                    <h3 class="sub wow fadeInLeft">Education</h3>
               
                 <div class="experience row wow fadeIn">
                     <div class="col-md-4 ">
@@ -183,7 +184,14 @@
                                 The education was simply all the basic things you need to know before you enter the world of Technology, 
                                 I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because coding makes me feel AWESOME.			
                             </span>
-                                <span class="location">
+                            
+                            <br />
+                        <ul class="list-unstyled">
+                            <li><i class="glyphicon glyphicon-star text-success small"></i> Graduated without failing marks.</li>
+                            <li><i class="glyphicon glyphicon-star text-success small"></i> IT Capstone Project: "Online Class Management System for St. Judel", Team leader and Responsible for the development of the system.</li>
+                        </ul>
+                         
+                            <span class="location">
                             <span class="experience-details">
                                     <span class="glyphicon glyphicon-map-marker"></span>
                                     Valenzuela City				</span>
@@ -220,7 +228,7 @@
             
             <div id="xp-careers">
                 
-                <p class="sub wow fadeInLeft">Careers</p> <br />
+                <h3 class="sub wow fadeInLeft">Careers</h3> <br />
                 
                 <div class="row">
                     <div class="col-md-12">
@@ -262,18 +270,21 @@
                                       <div class="timeline-panel wow fadeInUp">
                                         <div class="timeline-heading">
                                             <div class="row">
-                                                <div class="col-md-8"> 
+                                                <div class="col-md-7"> 
                                                     <h4 class="timeline-company">PLDT - Valenzuela</h4>
                                                     <span class="timeline-position">Internship</span>
                                                 </div>
-                                                <div class="col-md-4">
-                                                    <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2013 - Present</small>
+                                                <div class="col-md-5">
+                                                    <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2012 - October 2012 3</small>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="timeline-body">
-                                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                          <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                                            <ul>
+                                                <li>Assisted field engineer in repairing DSL/Telephone problems</li>
+                                                <li>Promoted PLDT’s products and services</li>
+                                                <li>Passed weekly test given by our supervisor</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </li>
@@ -291,7 +302,13 @@
     <section class="fancy-quotes">
         <div class="container">
             <div class="row">
-                wada
+                <h1>
+               
+                </h1>
+                <blockquote>
+                    <p> Do not lower your goals to the height of your abilities. Instead, heighten your abilities to the level of your goals. </p>
+                    <footer>Phillip Shire </footer>
+                </blockquote>
             </div>
         </div>
         
@@ -303,7 +320,6 @@
     <section id="abilities" class="full-height">
         <div class="container">
             <h2 class="heading wow fadeInDown">Abilities</h2>
-            <p class="lead text-center wow fadeInDown">Some fancy quotes here..</p>
             <hr>
             
             <div class="wow zoomIn">
@@ -856,12 +872,16 @@
         <div class="container">
              <h2 class="heading wow fadeInDown">Projects</h2>
                 <hr>
-            <div class="row">
+                
+                <p class="lead text-center text-muted">Crafting my projects - stay tuned!</p>
+                
+            
+<!--            <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 grid">
                     <figure class="effect-bubba">
 						<img src="assets/img/projects/2.jpg" alt="img02"/>
 						<figcaption>
-							<h2>Fresh Bubba</h2>
+							<h2></h2>
 							<p>Bubba likes to appear out of thin air.</p>
 							<a href="#">View more</a>
 						</figcaption>			
@@ -877,7 +897,7 @@
 						</figcaption>			
 					</figure>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
     <!-- Projects Section End -->
@@ -889,6 +909,32 @@
           <div class="container">
              <h2 class="heading wow fadeInDown">Contact</h2>
                 <hr>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.linkedin.com/in/chrislandeza" target="_blank"><span class="icon-large fa fa-linkedin-square"></span> &nbsp; https://www.linkedin.com/in/chrislandeza</a></li>
+                            <li><a href="https://www.facebook.com/cclandeza" target="_blank"><span class="icon-large fa fa-facebook-official"></span> &nbsp; https://www.facebook.com/cclandeza</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><span class="icon-large fa fa-skype"></span> &nbsp; chrislandeza</li>
+                            <li><a href="mailto:CC_Landeza@yahoo.com.com"><span class="icon-large fa fa-envelope"></span> &nbsp; CC_Landeza@yahoo.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                
+                <br /><br />
+                <div class="row text-center footer">
+                    <div class="col-md-12">
+                        <p class="text-muted">2015 © Chris Landeza </p>
+                    </div>
+                </div>
+             
+        </footer>
           </div>
     </section>
     <!-- Contact Section End -->

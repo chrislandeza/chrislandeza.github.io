@@ -224,7 +224,8 @@ hr{
 /*	Profile Styles
 /*------------------------------------------------*/
 #profile{
-    background-color: #fff;
+   /* background-color: #fff; */
+    background: #C7642D url("../img/bg/debut_light.png");
     /* Pull-up the about section to fill the gap when the nav-bar collapse */
     margin-top: -40px;
 }
@@ -246,7 +247,8 @@ hr{
 /*	Contact Styles
 /*------------------------------------------------*/
 #contact{
-    background-color: #434242;
+   /*  background-color: #434242; */
+    background: #434242 url("../img/bg/dark_fish_skin.png");
     /* Pull-up the about section to fill the gap when the nav-bar collapse */
     margin-top: -40px;
 }
@@ -256,8 +258,25 @@ hr{
     padding: 0px 150px;
 }
 
+#contact a{
+    color:inherit;
+}
+
+#contact ul li{
+    color:#C5C5C5;
+    cursor: pointer;
+    padding: 10px;
+}
+#contact ul li:hover{
+    color:#fff;
+}
+
 #contact .container .heading{
     color: #fff;
+}
+
+.footer{
+    color:#fff;
 }
 
 @media (max-width: 767px) { 
@@ -329,6 +348,7 @@ hr{
 
 #projects{
     background-color: #F3EFE0;
+    background: #F3EFE0 url("../img/bg/halftone.png");
 }
 
 #projects .container{
@@ -354,7 +374,8 @@ hr{
 /*	Experiences Styles
 /*------------------------------------------------*/
 #experiences{
-    background-color: #F3EFE0;
+   /* background-color: #F3EFE0; */
+    background: #F3EFE0 url("../img/bg/ricepaper_v3.png");
 }
 
 #experiences #education{
@@ -401,7 +422,8 @@ hr{
 /*	abilities Styles
 /*------------------------------------------------*/
 #abilities{
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: #fff url("../img/bg/debut_light.png");
     /* Pull-up the about section to fill the gap when the nav-bar collapse */
     margin-top: -40px;
 }
@@ -1084,3 +1106,47 @@ figure.effect-bubba:hover p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
+
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 28px;
+	font-style: italic;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #FFEBCD;
+        border-left: 0px;
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	color: #FFEBCD;
+}
+
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+blockquote footer{
+    color: #FFEBCD;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+     
+}
+
+.icon-large{
+    font-size:20px;
+}
+
