@@ -50,7 +50,7 @@
                             <p class="home-subheading wow fadeInUp">Welcome to my Website</p>
                             <div class="home-buttons wow bounceIn">
                              <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
-                             <a href="https://wrapbootstrap.com/theme/cvilized-timeline-style-cv-resume-WB057FN0R" class="btn btn-danger btn-md">View my Blog</a>
+                             
                             </div>
                         </div>
                     </div>
