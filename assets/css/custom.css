@@ -152,6 +152,20 @@ of those sections to manage the look and feel of the site. */
 /*	Utility Classes
 /*------------------------------------------------*/
 
+.btn-readmore{
+    background-color: transparent;
+    color:#000;
+    border: 2px solid #C7642D;
+    -webkit-transition: all .3s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: all .3s ease-in-out,padding .5s ease-in-out;
+	transition: all .3s ease-in-out,padding .5s ease-in-out;
+}
+
+.btn-readmore:hover{
+    background-color: #C7642D;
+    color:#fff;
+}
+
 .fancy-quotes{
     min-height: 30%;
     padding-top: 100px;

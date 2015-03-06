@@ -7,8 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Chris Landeza is a Web Developer with good knowledge of front and back-end techniques">
+        <meta name="tags" content="chris landeza, freelance web designer, freelance web developer, php programmer, web designer, web developer, quezon city, freelance, web design, developer, laravel, responsive web design, valenzuela city, programmer, html, html5, css, css3, responsive, php, mysql, javascript, jquery, graphic designer, website developer, website designer">
+        <meta name="author" content="Chris Landeza">
 
     <title>Web Developer and Designer - Chris Landeza</title>
     <link href="assets/css/normalize.css" rel="stylesheet">
@@ -49,7 +50,7 @@
                             <h1 class="home-heading wow fadeInUp">HELLO, I'M CHRIS</h1>
                             <p class="home-subheading wow fadeInUp">Welcome to my Website</p>
                             <div class="home-buttons wow bounceIn">
-                             <a href="#profile" class="btn btn-primary btn-md page-scroll">READ MORE</a>
+                             <a href="#profile" class="btn btn-readmore btn-md page-scroll">READ MORE</a>
                              
                             </div>
                         </div>
