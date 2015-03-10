@@ -1,16 +1,55 @@
+/*!
+ * (http://chrislandeza.co.nf)
+ * Copyright 2015 Chris Landeza.
+ */
 
-// Triggers when the page finished loading..
-jQuery(window).load(function () {
-    //$("body").removeClass("hidden");
+$(window).load(function() {
+    $(".loader-container").slideDown(500, function(){
+        $("body").removeClass("loading");
+        new WOW().init();
+    });
+	
 });
 
 
-// Scrolling Function
-$(window).scroll(function() {
+
+function changeLogo(){
+    if($(window).scrollTop() >= ($("#contact").position().top - 70)) {
+        $("#logo").addClass('dark');
+        if($("#logo").hasClass("orange")){
+           
+//            $("#logo").fadeOut(100, function(){
+                $("#logo").attr('src','assets/img/logo.png').bind('onreadystatechange load', function(){
+                    if (this.complete) $(this).fadeIn(300);
+                    $("#logo").removeClass('orange');
+                    $("#logo").addClass('dark');
+                }); 
+//            });
+           
+        } 
+    } else {
+        $("#logo").addClass('orange');
+         if($("#logo").hasClass("dark")){
+             
+//            $("#logo").fadeOut(100, function(){
+                $("#logo").attr('src','assets/img/logo-orange.png').bind('onreadystatechange load', function(){
+                    if (this.complete) $(this).fadeIn(300);
+                    $("#logo").removeClass('dark');
+                    $("#logo").addClass('orange');
+                }); 
+//            });
+        } 
+    }
+    
+}
+
+$(window).scroll(function(){
+    changeLogo();
 });
 
 
 $(function() {
+    changeLogo();
     // Make the navigation sticky
     $("#navigation").sticky({ topSpacing: 0 });
     

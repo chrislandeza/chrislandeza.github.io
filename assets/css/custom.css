@@ -1,10 +1,11 @@
 /*!
- * (http://chrislandeza.com)
- * Copyright 2014 Chris Landeza.
+ * (http://chrislandeza.co.nf)
+ * Copyright 2015 Chris Landeza.
  */
 
+
 /*------------------------------------------------*/
-/* Override Element Style
+/* Override default Style
 /*------------------------------------------------*/
 body {
     width: 100%;
@@ -18,10 +19,7 @@ body {
     font-size:15px;
 }
 
-body:after{
-    display:none;
-    content: url(../img/top-bg.jpg);
-}
+
 
 html{
     width: 100%;
@@ -91,18 +89,13 @@ dl dd{
    
 }
 
+/*------------------------------------------------*/
+/*	Fonts end
+/*------------------------------------------------*/
 
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
 
-.full-height{
-    min-height: 100%;
-    padding-top: 100px;
-    height: auto;
-    padding-bottom: 100px;
-}
+
 
 
 @media(min-width:767px) {
@@ -151,7 +144,22 @@ of those sections to manage the look and feel of the site. */
 /*------------------------------------------------*/
 /*	Utility Classes
 /*------------------------------------------------*/
+.full-height{
+    min-height: 100%;
+    padding-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
+}
 
+.icon-large{
+    font-size:20px;
+}
+
+.sub{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+   
+}
 .btn-readmore{
     background-color: transparent;
     color:#C7642D;
@@ -221,12 +229,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-p.lead{
-    color:#727878;
-    font-family: "Raleway";
-    font-weight: normal;
-    color:#727878;
-}
+
 
 hr{
     margin: 40px 0px;
@@ -550,7 +553,7 @@ hr{
 
 #home h1{
     font-size: 3.5em;
-    font-family: "Nashville";
+    font-family: "Raleway";
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -559,6 +562,7 @@ hr{
   font-size: 1.5em;
   margin-bottom: 45px;
   line-height: 1.4;
+  font-family: "Nashville";
 }
 
 
@@ -595,6 +599,7 @@ hr{
    /* Input Delays or duration here */
 }
 .home-heading{
+    
      -webkit-animation-delay: 0.3s;
     -moz-animation-delay: 0.3s;
 }
@@ -1126,6 +1131,53 @@ figure.effect-bubba:hover p {
 }
 
 
+
+
+
+/*------------------------------------------------*/
+/*	Preloader Style
+/*------------------------------------------------*/
+.loader {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background-color: #F1F1F1;
+}
+
+.loader-container{
+    height:     100%;
+    width:      100%;
+    background-color: #F1F1F1;
+    margin: auto;
+    padding-top:10%;
+    vertical-align: middle; 
+}
+.loader-content{
+    width: 20%;
+    margin: auto;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .loader {
+    display: block;
+}
+
+
+
+/*------------------------------------------------*/
+/*	Blockquote Style
+/*------------------------------------------------*/
 blockquote {
 	font-family: Georgia, serif;
 	font-size: 28px;
@@ -1163,8 +1215,3 @@ blockquote cite:before {
 	content: "\2014 \2009";
      
 }
-
-.icon-large{
-    font-size:20px;
-}
-

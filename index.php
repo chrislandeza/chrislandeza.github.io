@@ -14,8 +14,9 @@
     <title>Web Developer and Designer - Chris Landeza</title>
     <link href="assets/css/normalize.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
     
     <!-- Animate CSS -->
     <link href="assets/css/animate.css" rel="stylesheet">
@@ -33,16 +34,26 @@
 </head>
 
     
-<body data-spy="scroll" data-target="#navigation" data-offset="80"  >
+<body data-spy="scroll" data-target="#navigation" data-offset="80" class="loading" >
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60194277-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     
      <!-- Home Section -->
-     <section id="home">
+     <section id="home" class="full-height">
          <div  class="center-div">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 left">
                         <div class="avatar wow fadeIn">
-                            <img src="assets/img/home.png" class="img-responsive" alt="Profile Picture">
+                            <img src="assets/img/home.jpg" class="img-responsive" alt="Profile Picture">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -74,7 +85,7 @@
                     </button>
                     <a class="navbar-brand page-scroll" href="#home">
                         <!-- logo.png -->
-                        <img src="assets/img/logo.png" class="brand"> 
+                        <img src="assets/img/logo-orange.png" style="max-height: 50px; margin-top: -15px;" id="logo"> 
                     </a>
                 </div>
 
@@ -117,7 +128,7 @@
         <div class="container">
             
             <h2 class="heading wow bounceIn">Profile</h2>
-            <p class="lead text-center wow fadeInLeft">Web Developer</p>
+            <p class="text-muted text-center wow fadeInLeft sub">Web Developer</p>
             
             <hr>
            
@@ -148,7 +159,7 @@
                  <div class="col-md-12 wow fadeInLeft">
                     <p>I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field).</p>
 
-<p>I have over 4 years experience in developing custom web application; developing everything from your personal websites to a small business web application. I also do marketing stuffs such as Social media marketing, SEO, Creating Marketing materials etc.</p>
+<p>I have over 3 years experience in developing custom web application; developing everything from your personal websites to a small business web application. I also do marketing stuffs such as Social media marketing, SEO, Creating Marketing materials etc.</p>
 
 <p>I devoted at least 3 hours of my everyday life reading articles and watching video tutorials to expand my knowledge. I love spending time on fixing little details and optimizing applications - because to me <b>there's always room for improvement</b>.</p>
 
@@ -169,7 +180,7 @@
                 
             <div id="education">
                 
-                    <h3 class="sub wow fadeInLeft">Education</h3>
+                    <h4 class="sub wow fadeInLeft">Education</h4>
               
                 <div class="experience row wow fadeIn">
                     <div class="col-md-4 ">
@@ -229,7 +240,7 @@
             
             <div id="xp-careers">
                 
-                <h3 class="sub wow fadeInLeft">Careers</h3> <br />
+                <h4 class="sub wow fadeInLeft">Careers</h4> <br />
                 
                 <div class="row">
                     <div class="col-md-12">
@@ -340,7 +351,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
-                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
                             <li>
@@ -350,7 +361,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
-                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
                                 </div>
                             </li>
                             <li>
@@ -360,7 +371,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
-                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star-empty"></span> 
                                 </div>
                             </li>
                             <li>
@@ -935,20 +946,28 @@ managing our website and social media accounts.</p>
     <!-- Contact Section End -->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="assets/js/jquery-1.11.0.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-
+    
+    <div class="loader">
+        <div class="loader-container">
+            <div class="loader-content">
+                <center>
+                    <img src="assets/img/logo-orange.png" class="img-responsive">  <br />
+                    <img src="assets/img/loader.gif">
+                </center>
+            </div>
+        </div>
+    </div>
+   
 </body>
 
 </html>
