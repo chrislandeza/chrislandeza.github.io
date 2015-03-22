@@ -12,17 +12,18 @@
         <meta name="author" content="Chris Landeza">
 
     <title>Web Developer and Designer - Chris Landeza</title>
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="assets/css/styles.css" rel="stylesheet">
+<!--    <link href="assets/css/normalize.css" rel="stylesheet">
+     Bootstrap Core CSS 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
-    
-    <!-- Animate CSS -->
+     Animate CSS 
     <link href="assets/css/animate.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="assets/css/custom.css" rel="stylesheet">
+     Custom CSS 
+    <link href="assets/css/custom.css" rel="stylesheet">-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,6 +46,17 @@
       ga('send', 'pageview');
 
     </script>
+    
+    <div class="loader">
+        <div class="loader-container">
+            <div class="loader-content">
+                <center>
+                    <img src="assets/img/logo-orange.png" class="img-responsive">  <br />
+                    <img src="assets/img/loader.gif">
+                </center>
+            </div>
+        </div>
+    </div>
     
      <!-- Home Section -->
      <section id="home" class="full-height">
@@ -944,29 +956,23 @@ managing our website and social media accounts.</p>
           </div>
     </section>
     <!-- Contact Section End -->
+<!--
+     jQuery Version 1.11.0 
+    <script src="assets/js/jquery-1.11.0.js"></script>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+     Bootstrap Core JavaScript 
+    <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
+     Scrolling Nav JavaScript 
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>-->
     
-    <div class="loader">
-        <div class="loader-container">
-            <div class="loader-content">
-                <center>
-                    <img src="assets/img/logo-orange.png" class="img-responsive">  <br />
-                    <img src="assets/img/loader.gif">
-                </center>
-            </div>
-        </div>
-    </div>
+    <script src="assets/js/scripts.js"></script>
+
+
+  
    
 </body>
 
