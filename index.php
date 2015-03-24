@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -8,13 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Chris Landeza is a Web Developer with good knowledge of front and back-end techniques">
-        <meta name="tags" content="chris landeza, freelance web designer, freelance web developer, php programmer, web designer, web developer, quezon city, freelance, web design, developer, laravel, responsive web design, valenzuela city, programmer, html, html5, css, css3, responsive, php, mysql, javascript, jquery, graphic designer, website developer, website designer">
+        <meta name="keywords" content="chris landeza, freelance web designer, freelance web developer, php programmer, web designer, web developer, quezon city, freelance, web design, developer, laravel, responsive web design, valenzuela city, programmer, html, html5, css, css3, responsive, php, mysql, javascript, jquery, graphic designer, website developer, website designer">
         <meta name="author" content="Chris Landeza">
 
     <title>Web Developer and Designer - Chris Landeza</title>
     <link rel="icon" href="assets/img/favicon.ico">
     <link href="assets/css/styles.css" rel="stylesheet">
-<!--    <link href="assets/css/normalize.css" rel="stylesheet">
+
+
+
+<!--
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    
      Bootstrap Core CSS 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -23,11 +27,11 @@
     <link href="assets/css/animate.css" rel="stylesheet">
 
      Custom CSS 
-    <link href="assets/css/custom.css" rel="stylesheet">-->
+    <link href="assets/css/custom.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+     HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
+     WARNING: Respond.js doesn't work if you view the page via file:// 
+    [if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -50,10 +54,10 @@
     <div class="loader">
         <div class="loader-container">
             <div class="loader-content">
-                <center>
-                    <img src="assets/img/logo-orange.png" class="img-responsive">  <br />
-                    <img src="assets/img/loader.gif">
-                </center>
+                
+                <img src="assets/img/logo-orange.png" class="img-responsive" alt="Chris Landeza Logo">  <br />
+                    <img src="assets/img/loader.gif" alt="Loading" class="img-centered">
+                
             </div>
         </div>
     </div>
@@ -84,7 +88,7 @@
     </section>
     
     <!-- Sticky Navigation -->
-    <section id="navigation">
+    <div id="navigation">
         <!-- Navigation -->
         <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
              <div class="container"> 
@@ -97,7 +101,7 @@
                     </button>
                     <a class="navbar-brand page-scroll" href="#home">
                         <!-- logo.png -->
-                        <img src="assets/img/logo-orange.png" style="max-height: 50px; margin-top: -15px;" id="logo"> 
+                        <img id="logo"  src="assets/img/logo-orange.png"  alt="CCLandeza"> 
                     </a>
                 </div>
 
@@ -109,7 +113,7 @@
                             <a class="page-scroll" href=""></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#profile" class="about-section">Profile</a>
+                            <a class="page-scroll" href="#profile">Profile</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#experiences">Experiences</a>
@@ -130,7 +134,7 @@
             </div> 
             <!-- /.container -->
         </nav>
-    </section>
+    </div>
     <!-- Sticky Navigation end -->
     
 
@@ -202,14 +206,13 @@
                         </p>
                     </div>
                     <div class="col-md-8">
+                        <strong>Bachelor of Science in Information Technology</strong>
                         <p>
-                            <strong>Bachelor of Science in Information Technology</strong>
-                            <span class="hidden-phone">
-                                The education was simply all the basic things you need to know before you enter the world of Technology, 
-                                I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because coding makes me feel AWESOME.			
-                            </span>
+                            The education was simply all the basic things you need to know before you enter the world of Technology, 
+                            I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc. but I have focus more in programming, software/web development and database management because coding makes me feel AWESOME.			
+                        </p>
                             
-                            <br />
+                           
                         <ul class="list-unstyled">
                             <li><i class="glyphicon glyphicon-star text-success small"></i> Graduated without failing marks.</li>
                             <li><i class="glyphicon glyphicon-star text-success small"></i> IT Capstone Project: "Online Class Management System for St. Judel", Team leader and Responsible for the development of the system.</li>
@@ -218,9 +221,10 @@
                             <span class="location">
                             <span class="experience-details">
                                     <span class="glyphicon glyphicon-map-marker"></span>
-                                    Valenzuela City				</span>
+                                    Valenzuela City				
                             </span>
-                        </p>
+                            </span>
+                        
                     </div>
                 </div>
                 
@@ -228,22 +232,24 @@
                     <div class="col-md-4 ">
                         <h4>Florentino Torres High School</h4>
                         <p class="experience-period">
-                            <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> 2005 - 2009</small>
+                            <small class="timeline-date">
+                                <i class="glyphicon glyphicon-calendar"></i> 2005 - 2009
+                            </small>
                         </p>
                     </div>
                     <div class="col-md-8 ">
-                        <p>
+                      
                             <strong>Secondary School</strong>
-                            <span class="hidden-phone">
+                            <p>
                                 Enjoyed doing Physics, Chemistry and History.
-                            </span>
+                            </p>
                             <span class="experience-details">
                                 <span class="location">
                                     <span class="glyphicon glyphicon-map-marker"></span>
                                     Tondo, Manila				
                                 </span>
                             </span>
-                        </p>
+                       
                     </div>
                 </div>
             </div>
@@ -317,12 +323,9 @@ managing our website and social media accounts.</p>
     </section>
     <!-- Experiences Section End -->
     
-    <section class="fancy-quotes">
+    <div class="fancy-quotes">
         <div class="container">
             <div class="row">
-                <h1>
-               
-                </h1>
                 <blockquote>
                     <p> Do not lower your goals to the height of your abilities. Instead, heighten your abilities to the level of your goals. </p>
                     <footer>Phillip Shire </footer>
@@ -330,7 +333,7 @@ managing our website and social media accounts.</p>
             </div>
         </div>
         
-    </section>
+    </div>
     
     
     
@@ -956,8 +959,8 @@ managing our website and social media accounts.</p>
           </div>
     </section>
     <!-- Contact Section End -->
-<!--
-     jQuery Version 1.11.0 
+
+<!--     jQuery Version 1.11.0 
     <script src="assets/js/jquery-1.11.0.js"></script>
 
      Bootstrap Core JavaScript 
@@ -967,7 +970,8 @@ managing our website and social media accounts.</p>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/wow.min.js"></script>-->
+    <script src="assets/js/wow.min.js"></script>
+    -->
     
     <script src="assets/js/scripts.js"></script>
 
