@@ -12,13 +12,11 @@
 
     <title>Web Developer and Designer - Chris Landeza</title>
     <link rel="icon" href="assets/img/favicon.ico">
-    <link href="assets/css/styles.css" rel="stylesheet">
+<!--    <link href="assets/css/styles.css" rel="stylesheet">-->
 
 
 
-<!--
     <link href="assets/css/normalize.css" rel="stylesheet">
-    
      Bootstrap Core CSS 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -28,8 +26,9 @@
 
      Custom CSS 
     <link href="assets/css/custom.css" rel="stylesheet">
+    
 
-     HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
+<!--     HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
      WARNING: Respond.js doesn't work if you view the page via file:// 
     [if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -360,17 +359,17 @@ managing our website and social media accounts.</p>
                                 </div>
                             </li>
                             <li>
-                                <span class="ability-label">HTML(5)</span>
+                                <span class="ability-label">HTML</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </div>
                             </li>
                             <li>
-                                <span class="ability-label">CSS(3)</span>
+                                <span class="ability-label">CSS</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -619,8 +618,8 @@ managing our website and social media accounts.</p>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star"></span> 
-                                    <span class="glyphicon glyphicon-star-empty"></span> 
-                                    <span class="glyphicon glyphicon-star-empty"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
+                                    <span class="glyphicon glyphicon-star"></span> 
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
@@ -897,12 +896,12 @@ managing our website and social media accounts.</p>
                 <p class="lead text-center text-muted">Crafting my projects - stay tuned!</p>
                 
             
-<!--            <div class="row">
+            <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 grid">
                     <figure class="effect-bubba">
-						<img src="assets/img/projects/2.jpg" alt="img02"/>
+						<img src="assets/img/projects/1.jpg" alt="img02"/>
 						<figcaption>
-							<h2></h2>
+							<h2>Class Management System</h2>
 							<p>Bubba likes to appear out of thin air.</p>
 							<a href="#">View more</a>
 						</figcaption>			
@@ -918,7 +917,7 @@ managing our website and social media accounts.</p>
 						</figcaption>			
 					</figure>
                 </div>
-            </div>-->
+            </div>
         </div>
     </section>
     <!-- Projects Section End -->
@@ -960,20 +959,20 @@ managing our website and social media accounts.</p>
     </section>
     <!-- Contact Section End -->
 
-<!--     jQuery Version 1.11.0 
+<!--     jQuery Version 1.11.0 -->
     <script src="assets/js/jquery-1.11.0.js"></script>
 
-     Bootstrap Core JavaScript 
+<!--     Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
 
-     Scrolling Nav JavaScript 
+<!--     Scrolling Nav JavaScript -->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    -->
     
-    <script src="assets/js/scripts.js"></script>
+    
+<!--    <script src="assets/js/scripts.js"></script>-->
 
 
   

@@ -14,6 +14,7 @@ $(window).load(function() {
 
 
 function changeLogo(){
+    
     if($(window).scrollTop() >= ($("#contact").position().top - 70)) {
         $("#logo").addClass('dark');
         if($("#logo").hasClass("orange")){
