@@ -6,7 +6,16 @@
 $(window).load(function() {
     $(".loader-container").slideDown(500, function(){
         $("body").removeClass("loading");
-        new WOW().init();
+        
+        var wow = new WOW(
+        { boxClass:     'wow',      
+          animateClass: 'animated', 
+          offset:       0,          
+          mobile:       false,       
+          live:         true   
+        });
+        wow.init();
+      
     });
 	
 });

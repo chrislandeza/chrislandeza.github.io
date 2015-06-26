@@ -17,14 +17,14 @@
 
 
     <link href="assets/css/normalize.css" rel="stylesheet">
-     Bootstrap Core CSS 
+<!--     Bootstrap Core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
-     Animate CSS 
+<!--     Animate CSS -->
     <link href="assets/css/animate.css" rel="stylesheet">
 
-     Custom CSS 
+<!--     Custom CSS -->
     <link href="assets/css/custom.css" rel="stylesheet">
     
 
@@ -142,13 +142,13 @@
     <section id="profile" class="full-height">
         <div class="container">
             
-            <h2 class="heading wow bounceIn">Profile</h2>
-            <p class="text-muted text-center wow fadeInLeft sub">Web Developer</p>
+            <h2 class="heading wow fadeInDown">Profile</h2>
+            <p class="text-muted text-center wow fadeIn sub">Web Developer</p>
             
             <hr>
            
             <div class="row">
-                 <div class="col-md-6 text-center wow fadeInLeft">
+                 <div class="col-md-6 text-center wow fadeInLeft" data-wow-delay="0s">
                     <img src="assets/img/profile.jpg" alt="" class="center-block img-circle img-responsive">
                         <ul class="list-inline ratings text-center" title="Ratings">
                           <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
@@ -159,7 +159,7 @@
                         </ul>
                 </div><!--/col-->
                 
-                <div class="col-md-6 wow fadeInLeft">
+                <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
                     <h2>Chris Landeza</h2>
                     <p><strong>Age: </strong> 21 </p>
                     <p><strong>Hobbies: </strong> Codes, Movies, Read, Video Tutorials,  Hangout with friends, listen to music and Computer Games (Dota 2). </p>
@@ -170,8 +170,9 @@
                
                         
             </div><!--/row-->
+            
             <div class="row">
-                 <div class="col-md-12 wow fadeInLeft">
+                 <div class="col-md-12 wow fadeInDown" data-wow-delay=".6s">
                     <p>I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code and learn new things (specially in my field).</p>
 
 <p>I have over 3 years experience in developing custom web application; developing everything from your personal websites to a small business web application. I also do marketing stuffs such as Social media marketing, SEO, Creating Marketing materials etc.</p>
@@ -342,13 +343,13 @@ managing our website and social media accounts.</p>
             <h2 class="heading wow fadeInDown">Abilities</h2>
             <hr>
             
-            <div class="wow zoomIn">
-                <p class="sub wow fadeInLeft">Web Development</p>
+            <div>
+                <p class="sub wow fadeInDown">Web Development</p>
                 <div class="row">
                     <!-- Web Dev - skill left -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay="0s">
                                 <span class="ability-label">PHP</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -358,7 +359,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".1s">
                                 <span class="ability-label">HTML</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -368,7 +369,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".2s">
                                 <span class="ability-label">CSS</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -378,7 +379,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".3s">
                                 <span class="ability-label">AJAX</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -388,7 +389,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".4s">
                                 <span class="ability-label">Javascript</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -398,7 +399,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".5s">
                                 <span class="ability-label">jQuery</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -408,7 +409,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".6s">
                                 <span class="ability-label">JSON</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -418,7 +419,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".7s">
                                 <span class="ability-label">Bootstrap (Front-end Framework)</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -437,7 +438,7 @@ managing our website and social media accounts.</p>
                     <!-- Web Dev - skill right -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay="0s">
                                 <span class="ability-label">Wordpress</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -447,7 +448,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".1s">
                                 <span class="ability-label">SEO</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -457,7 +458,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".2s">
                                 <span class="ability-label">PDO</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -467,7 +468,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".3s">
                                 <span class="ability-label">MySQLi</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -477,7 +478,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".4s">
                                 <span class="ability-label">Laravel</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -487,7 +488,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".5s">
                                 <span class="ability-label">CodeIgniter</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -497,7 +498,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".6s">
                                 <span class="ability-label">Drupal</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -508,7 +509,7 @@ managing our website and social media accounts.</p>
 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".7s">
                                 <span class="ability-label">ASP.NET</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -529,13 +530,13 @@ managing our website and social media accounts.</p>
             
             <br />
             
-            <div class="wow zoomIn">
-                <p class="sub wow fadeInLeft">Database Management Systems</p>
+            <div class="">
+                <p class="sub wow fadeInDown">Database Management Systems</p>
                 <div class="row">
                     <!-- DBMS - skill left -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay="0s">
                                 <span class="ability-label">MySQL</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -545,7 +546,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".1s">
                                 <span class="ability-label">MS Access</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -564,7 +565,7 @@ managing our website and social media accounts.</p>
                     <!-- DBMS - skill right -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay="0s">
                                 <span class="ability-label">MS SQL Server</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -588,14 +589,14 @@ managing our website and social media accounts.</p>
             
             <br />
             
-            <div class="wow zoomIn">
+            <div class="">
                 <!-- Programming Paradigm Start -->
-                <p class="sub wow fadeInLeft">Programming Paradigm</p>
+                <p class="sub wow fadeInDown">Programming Paradigm</p>
                 <div class="row">
                     <!-- Programming Paradigm - skill left -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay="0s">
                                 <span class="ability-label">Procedural</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -613,7 +614,7 @@ managing our website and social media accounts.</p>
                     <!-- Programming Paradigm - skill right -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay="0s">
                                 <span class="ability-label">Object Oriented</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -635,14 +636,14 @@ managing our website and social media accounts.</p>
             
             <br />
             
-            <div class="wow zoomIn">
+            <div class="">
                 <!-- Operating Systems Start -->
-                <p class="sub wow fadeInLeft">Operating Systems</p>
+                <p class="sub wow fadeInDown">Operating Systems</p>
                 <div class="row">
                     <!-- Operating Systems - skill left -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay="0s">
                                 <span class="ability-label">Windows 7</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -652,7 +653,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".1s">
                                 <span class="ability-label">Windows XP</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -670,7 +671,7 @@ managing our website and social media accounts.</p>
                     <!-- Operating Systems - skill right -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay="0s">
                                 <span class="ability-label">Ubuntu</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -692,14 +693,14 @@ managing our website and social media accounts.</p>
             <br />
             
             
-            <div class="wow zoomIn">
+            <div class="">
                  <!-- Tools Start -->
-                <p class="sub wow fadeInLeft">Tools</p>
+                <p class="sub wow fadeInDown">Tools</p>
                 <div class="row">
                     <!-- Tools - left -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay="0s">
                                 <span class="ability-label">WAMP</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -709,7 +710,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".1s">
                                 <span class="ability-label">XAMPP</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -719,7 +720,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".2s">
                                 <span class="ability-label">phpMyAdmin</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -729,7 +730,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".3s">
                                 <span class="ability-label">Filezilla</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -739,7 +740,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".4s">
                                 <span class="ability-label">Dreamweaver</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -749,7 +750,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".5s">
                                 <span class="ability-label">Notepad++</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -759,7 +760,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star"></span> 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".6s">
                                 <span class="ability-label">MS Office (Word, PowerPoint, Excel)</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -769,7 +770,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInLeft" data-wow-delay=".7s">
                                 <span class="ability-label">Command Line</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -787,7 +788,7 @@ managing our website and social media accounts.</p>
                     <!-- Tools - right -->
                     <div class="col-md-6">
                         <ul class="list-unstyled ability-list">
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay="0s">
                                 <span class="ability-label">Firebug</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -797,7 +798,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".1s">
                                 <span class="ability-label">Netbeans</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -807,7 +808,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".2s">
                                 <span class="ability-label">Photoshop</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -817,7 +818,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".3s">
                                 <span class="ability-label">Visual Studio (2008, 2010)</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -827,7 +828,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".4s">
                                 <span class="ability-label">After Effects</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -837,7 +838,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".5s">
                                 <span class="ability-label">Vegas Pro 10</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -847,7 +848,7 @@ managing our website and social media accounts.</p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".6s">
                                 <span class="ability-label">Git</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -858,7 +859,7 @@ managing our website and social media accounts.</p>
 
                                 </div>
                             </li>
-                            <li>
+                            <li class="wow fadeInRight" data-wow-delay=".7s">
                                 <span class="ability-label">Sublime Text</span>
                                 <div class="ability-rating">
                                     <span class="glyphicon glyphicon-star"></span> 
@@ -891,12 +892,15 @@ managing our website and social media accounts.</p>
     <section id="projects" class="full-height">
         <div class="container">
              <h2 class="heading wow fadeInDown">Projects</h2>
-                <hr>
+               
                 
                 <p class="lead text-center text-muted">Crafting my projects - stay tuned!</p>
+                <hr>
+                
+                <p>Have an interesting project?  <a type="button" class="page-scroll btn btn-info btn-xs" href="#contact">Let's Discuss</a></p>
                 
             
-            <div class="row">
+<!--            <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 grid">
                     <figure class="effect-bubba">
 						<img src="assets/img/projects/1.jpg" alt="img02"/>
@@ -917,7 +921,7 @@ managing our website and social media accounts.</p>
 						</figcaption>			
 					</figure>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
     <!-- Projects Section End -->
