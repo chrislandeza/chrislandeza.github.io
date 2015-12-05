@@ -12,17 +12,18 @@
 
         <title>Web Developer and Designer - Chris Landeza</title>
         <link rel="icon" href="assets/img/favicon.ico">
-        <!--    <link href="assets/css/styles.css" rel="stylesheet">-->
+            <link href="assets/css/styles.css" rel="stylesheet">
+
 
         <!--     Bootstrap Core CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!--        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-        <!--     Animate CSS -->
+             Animate CSS 
         <link href="assets/css/animate.css" rel="stylesheet">
 
-        <!--     Custom CSS -->
-        <link href="assets/css/custom.css" rel="stylesheet">
+             Custom CSS 
+        <link href="assets/css/custom.css" rel="stylesheet">-->
 
 
         <!--     HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
@@ -948,20 +949,20 @@
         </section>
         <!-- Contact Section End -->
 
-        <!--     jQuery Version 1.11.0 -->
+<!--             jQuery Version 1.11.0 
         <script src="assets/js/jquery-1.11.0.js"></script>
 
-        <!--     Bootstrap Core JavaScript -->
+             Bootstrap Core JavaScript 
         <script src="assets/js/bootstrap.min.js"></script>
 
-        <!--     Scrolling Nav JavaScript -->
+             Scrolling Nav JavaScript 
         <script src="assets/js/jquery.easing.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/jquery.sticky.js"></script>
-        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>-->
 
 
-<!--    <script src="assets/js/scripts.js"></script>-->
+    <script src="assets/js/scripts.js"></script>
 
 
 
