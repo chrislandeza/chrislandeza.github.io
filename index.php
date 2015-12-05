@@ -14,9 +14,6 @@
         <link rel="icon" href="assets/img/favicon.ico">
         <!--    <link href="assets/css/styles.css" rel="stylesheet">-->
 
-
-
-        <link href="assets/css/normalize.css" rel="stylesheet">
         <!--     Bootstrap Core CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
