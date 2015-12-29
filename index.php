@@ -83,7 +83,7 @@
         <!-- Sticky Navigation -->
         <div id="navigation">
             <!-- Navigation -->
-            <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
+            <nav id="nav" class="navbar navbar-default navbar-static-top">
                 <div class="container"> 
                     <div class="navbar-header page-scroll">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -872,7 +872,7 @@
                 <p class="lead text-center text-muted">Crafting my projects - stay tuned!</p>
                 <hr>
 
-                <p>Have an interesting project?  <a type="button" class="page-scroll btn btn-info btn-xs" href="#contact">Let's Discuss</a></p>
+                <p>Have an interesting project?  <a class="page-scroll btn btn-info btn-xs" href="#contact">Let's Discuss</a></p>
 
 
                 <!--            <div class="row">
@@ -932,8 +932,6 @@
                         <p class="text-muted">2015 © Chris Landeza </p>
                     </div>
                 </div>
-
-                </footer>
             </div>
         </section>
         <!-- Contact Section End -->
