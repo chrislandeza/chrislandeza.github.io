@@ -1,0 +1,27 @@
+-Implement Scrolling nav.
+
+-Implement Animate.css - https://www.youtube.com/watch?v=RuhPekX3wsQ
+
+-Implement Sizzle.js
+
+-Design the website
+
+-Create animation = Ideas + Design + Code + Cup of Coffee = App?
+
+-Find the Profile Reference..
+
+-Redesign the logo
+
+
+- Fixed the Scroll
+
+New Profile Reference
+
+http://jamesdowen.com/ 
+http://jozefmaxted.co.uk/
+http://wrapbootstrap.com/preview/WB057FN0R
+http://www.pascalvangemert.nl/#/projects
+http://www.christhurman.com/
+
+
+https://github.com/garand/sticky <-- Make Elem Sticky..
