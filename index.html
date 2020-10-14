@@ -17,45 +17,45 @@
 
     <link href="assets/css/all.css" rel="stylesheet">
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date()
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]
+      a.async = 1
+      a.src = g
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga')
 
-        ga('create', 'UA-60194277-2', 'auto');
-        ga('send', 'pageview');
+    ga('create', 'UA-60194277-2', 'auto')
+    ga('send', 'pageview')
 
     </script>
 
     <!-- Start of Async Drift Code -->
     <script>
-        !function () {
-            var t;
-            if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-                    t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                    t.factory = function (e) {
-                        return function () {
-                            var n;
-                            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-                        };
-                    }, t.methods.forEach(function (e) {
-                t[e] = t.factory(e);
-            }), t.load = function (t) {
-                var e, n, o, i;
-                e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-                        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-            });
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('p3hmnny6dsse');
+    !function () {
+      var t
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error('Drift snippet included twice.')) : (t.invoked = !0,
+        t.methods = ['identify', 'config', 'track', 'reset', 'debug', 'show', 'ping', 'page', 'hide', 'off', 'on'],
+        t.factory = function (e) {
+          return function () {
+            var n
+            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t
+          }
+        }, t.methods.forEach(function (e) {
+        t[e] = t.factory(e)
+      }), t.load = function (t) {
+        var e, n, o, i
+        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement('script'),
+          o.type = 'text/javascript', o.async = !0, o.crossorigin = 'anonymous', o.src = 'https://js.driftt.com/include/' + i + '/' + t + '.js',
+          n = document.getElementsByTagName('script')[0], n.parentNode.insertBefore(o, n)
+      })
+    }()
+    drift.SNIPPET_VERSION = '0.3.1'
+    drift.load('p3hmnny6dsse')
     </script>
     <!-- End of Async Drift Code -->
 
@@ -67,10 +67,8 @@
 <div class="loader">
     <div class="loader-container">
         <div class="loader-content">
-
             <img src="assets/img/logo-orange.png" class="img-responsive" alt="Chris Landeza Logo"> <br/>
             <img src="assets/img/loader.gif" alt="Loading" class="img-centered">
-
         </div>
     </div>
 </div>
@@ -93,7 +91,6 @@
 
                         <div class="home-buttons wow bounceIn">
                             <a href="#profile" class="btn btn-readmore btn-md page-scroll">READ MORE</a>
-
                         </div>
                     </div>
                 </div>
@@ -128,16 +125,10 @@
                         <a class="page-scroll" href=""></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#profile">Profile</a>
+                        <a class="page-scroll" href="#profile">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#experiences">Experiences</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#abilities">abilities</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                        <a class="page-scroll" href="#abilities">My Skill Set</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -157,31 +148,15 @@
 <section id="profile" class="full-height">
     <div class="container">
 
-        <h2 class="heading wow fadeInDown">Profile</h2>
+        <h2 class="heading wow fadeInDown">About Me</h2>
 
-        <p class="text-muted text-center wow fadeIn sub">Web Developer</p>
+        <p class="text-muted text-center wow fadeIn sub">Full Stack Developer</p>
 
         <hr>
 
         <div class="row">
-            <div class="col-md-6 text-center wow fadeInLeft" data-wow-delay="0s">
-                <img src="assets/img/home.jpg" alt="" class="center-block img-circle img-responsive">
-                <ul class="list-inline ratings text-center" title="Ratings">
-                    <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
-                    <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
-                    <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
-                    <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
-                    <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
-                </ul>
-            </div>
-            <!--/col-->
-
-
-            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <div class="col-md-6  wow fadeInLeft" data-wow-delay="0s">
                 <h2>Chris Landeza</h2>
-
-                <p><strong>Age: </strong> 25 </p>
-
                 <p><strong>Hobbies: </strong> Code, Movies, Read, Video Tutorials, Podcast (
                     <a href="http://www.fullstackradio.com/" target="_blank">Full Stack Radio</a>,
                     <a href="http://www.laravelpodcast.com/" target="_blank">Laravel Podcast</a>,
@@ -194,206 +169,37 @@
             <!--/col-->
 
 
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+                <p>I'm a Full Stack Developer with good knowledge of front and back-end techniques, a person who loves
+                    to code
+                    and learn new things.</p>
+
+                <p>I have over 7 years of extensive experience in developing back-end and front-end applications; Has an
+                    In depth knowledge of OOP principles for delivering high quality application and have experienced
+                    working on different software development methodologies like Agile and Waterfall model</p>
+
+                <p>I devoted at least an hour of my everyday life reading articles and watching video tutorials to
+                    expand my knowledge. I love spending time on fixing little details and optimizing applications -
+                    because to me <b>there's always room for improvement</b>.</p>
+            </div>
+            <!--/col-->
+
+
         </div>
 
         <br/>
         <!--/row-->
 
-        <div class="row">
-            <div class="col-md-12 wow fadeInDown" data-wow-delay=".6s">
-                <p>I'm a Web Developer with good knowledge of front and back-end techniques, a person who loves to code
-                    and learn new things (specially in my field).</p>
-
-                <p>I have over 3 years experience in developing custom web application; developing everything from your
-                    personal websites to a small business web application. I also do marketing stuff such as Social
-                    media marketing, SEO, Creating Marketing materials etc.</p>
-
-                <p>I devoted at least 3 hours of my everyday life reading articles and watching video tutorials to
-                    expand my knowledge. I love spending time on fixing little details and optimizing applications -
-                    because to me <b>there's always room for improvement</b>.</p>
-
-            </div>
-
-        </div>
+        <!--        <div class="row">-->
+        <!--            <div class="col-md-12 wow fadeInDown" data-wow-delay=".6s">-->
+        <!--              -->
+        <!--            </div>-->
+        <!--        </div>-->
 
     </div>
 </section>
 <!-- Profile Section End -->
 
-<!-- Experiences Section -->
-<section id="experiences" class="full-height">
-    <div class="container">
-        <h2 class="heading wow fadeInDown">Experiences</h2>
-        <hr>
-
-        <div id="education">
-
-            <h4 class="sub wow fadeInLeft">Education</h4>
-
-            <div class="experience row wow fadeIn">
-                <div class="col-md-4 ">
-                    <h4>Our Lady of Fatima University</h4>
-
-                    <p class="experience-period">
-                        <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i> June 2009 - April 2013
-                        </small>
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>Bachelor of Science in Information Technology</strong>
-
-                    <p>
-                        The education was simply all the basic things you need to know before you enter the world of
-                        Technology,
-                        I learned about Hardware, Networking, Databases, Robotics, Graphic Designs, Video Editing, etc.
-                        but I have focus more in programming, software/web development and database management because
-                        coding makes me feel AWESOME.
-                    </p>
-
-
-                    <ul class="list-unstyled">
-                        <li><i class="glyphicon glyphicon-star text-success small"></i> Graduated without failing marks.
-                        </li>
-                        <li><i class="glyphicon glyphicon-star text-success small"></i> IT Capstone Project: "Online
-                            Class Management System for St. Judel", Team leader and Responsible for the development of
-                            the system.
-                        </li>
-                    </ul>
-
-                            <span class="location">
-                                <span class="experience-details">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                    Valenzuela City
-                                </span>
-                            </span>
-
-                </div>
-            </div>
-
-            <div class="experience row wow fadeIn">
-                <div class="col-md-4 ">
-                    <h4>Florentino Torres High School</h4>
-
-                    <p class="experience-period">
-                        <small class="timeline-date">
-                            <i class="glyphicon glyphicon-calendar"></i> 2005 - 2009
-                        </small>
-                    </p>
-                </div>
-                <div class="col-md-8 ">
-
-                    <strong>Secondary School</strong>
-
-                    <p>
-                        Enjoyed doing Physics, Chemistry and History.
-                    </p>
-                            <span class="experience-details">
-                                <span class="location">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                    Tondo, Manila
-                                </span>
-                            </span>
-
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
-        <div id="xp-careers">
-
-            <h4 class="sub wow fadeInLeft">Careers</h4> <br/>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-badge info"></div>
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-heading">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <h4 class="timeline-company">Shangri-La Finest Chinese Cuisine</h4>
-                                            <span class="timeline-position">Programmer</span>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i>
-                                                June 2013 - April 2016
-                                            </small>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="timeline-body">
-                                    <p>Right after I graduated, I started working at Shangri-La Finest Chinese Cuisine:
-                                        One of the best and has been the strongest Chinese Restaurant in Quezon City
-                                        that has 1,200 seating Capacity.</p>
-
-                                    <br>
-
-                                    <ul>
-                                        <li>
-                                            Created and maintained an internal reservation system which allows the
-                                            company to efficiently manage restaurant bookings. Used Git for Version
-                                            Control, Laravel and Vue.js.
-                                        </li>
-
-                                        <li>
-                                            Managed and maintained company website and social media accounts.
-                                        </li>
-                                        <li>
-                                            Created and designed email campaign, promotional materials and marketing
-                                            materials such as posters, tarpaulin, flyers and other marketing materials.
-                                        </li>
-                                        <li>
-                                            Provided technical assistance and support for staff and issues related to
-                                            computer systems, software and hardware.
-                                        </li>
-                                        <li>
-                                            Performs other duties delegated by the COO and CEO.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge info"></div>
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-heading">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <h4 class="timeline-company">PLDT - Valenzuela</h4>
-                                            <span class="timeline-position">Internship</span>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <small class="timeline-date"><i class="glyphicon glyphicon-calendar"></i>
-                                                June 2012 - October 2012
-                                            </small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timeline-body">
-                                    <ul>
-                                        <li>Assisted field engineer in repairing DSL/Telephone problems</li>
-                                        <li>Promoted PLDT’s products and services</li>
-                                        <li>Passed weekly test given by our supervisor</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- Experiences Section End -->
 
 <div class="fancy-quotes">
     <div class="container">
@@ -411,19 +217,18 @@
 <!-- Abilities Section -->
 <section id="abilities" class="full-height">
     <div class="container">
-        <h2 class="heading wow fadeInDown">Abilities</h2>
+        <h2 class="heading wow fadeInDown">My Skill Set</h2>
         <hr>
 
-        <div>
-            <p class="sub wow fadeInDown">Technologies</p>
-
+        <!-- Backend Skills -->
+        <section>
+            <p class="sub wow fadeInDown">Backend</p>
             <div class="row">
                 <!-- Web Dev - skill left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
                         <li class="wow fadeInLeft" data-wow-delay="0s">
                             <span class="ability-label">PHP</span>
-
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
@@ -432,9 +237,10 @@
                                 <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
-                        <li class="wow fadeInLeft" data-wow-delay=".1s">
-                            <span class="ability-label">HTML</span>
 
+
+                        <li class="wow fadeInLeft" data-wow-delay=".1s">
+                            <span class="ability-label">Java</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
@@ -445,205 +251,204 @@
                         </li>
 
                         <li class="wow fadeInLeft" data-wow-delay=".2s">
-                            <span class="ability-label">CSS</span>
-
+                            <span class="ability-label">Laravel</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
                         <li class="wow fadeInLeft" data-wow-delay=".3s">
-                            <span class="ability-label">Laravel</span>
-
+                            <span class="ability-label">Spring Boot</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
                         <li class="wow fadeInLeft" data-wow-delay=".4s">
-                            <span class="ability-label">Javascript</span>
-
+                            <span class="ability-label">Kafka</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
-
-                        <li class="wow fadeInLeft" data-wow-delay=".5s">
-                            <span class="ability-label">Vue</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-                        <li class="wow fadeInLeft" data-wow-delay=".6s">
-                            <span class="ability-label">Angular 1.x</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-                        <li class="wow fadeInLeft" data-wow-delay=".7s">
-                            <span class="ability-label">jQuery</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-
                     </ul>
                 </div>
-                <!--// Web Dev - skill left -->
-
-
-                <!-- Web Dev - skill right -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
 
-                        <li class="wow fadeInLeft" data-wow-delay=".0s">
-                            <span class="ability-label">Version Control (Git / SVN)</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                            <span class="ability-label">Redis</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-
-                        <li class="wow fadeInRight" data-wow-delay=".1s">
-                            <span class="ability-label">Bootstrap (Front-end Framework)</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay=".1s">
+                            <span class="ability-label">JUnit</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-                        <li class="wow fadeInRight" data-wow-delay=".2s">
-                            <span class="ability-label">MVC Pattern</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay=".2s">
+                            <span class="ability-label">Mockito</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-
-                        <li class="wow fadeInRight" data-wow-delay=".3s">
-                            <span class="ability-label">RDBMS</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay=".3s">
+                            <span class="ability-label">Basic Shell Scripting</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-
-                        <li class="wow fadeInRight" data-wow-delay=".4s">
+                        <li class="wow fadeInLeft" data-wow-delay=".4s">
                             <span class="ability-label">CodeIgniter</span>
-
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--// Web Dev - skill left -->
+            </div>
+        </section>
+
+        <br/>
+
+        <section>
+            <p class="sub wow fadeInDown">Frontend</p>
+            <div class="row">
+                <!-- Web Dev - skill left -->
+                <div class="col-md-6">
+                    <ul class="list-unstyled ability-list">
+                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                            <span class="ability-label">JavaScript/ES6</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-                        <li class="wow fadeInRight" data-wow-delay=".5s">
-                            <span class="ability-label">Wordpress</span>
 
+                        <li class="wow fadeInLeft" data-wow-delay=".1s">
+                            <span class="ability-label">Vue (vue-router, vuex)</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-
-                        <li class="wow fadeInRight" data-wow-delay=".6s">
-                            <span class="ability-label">REST</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay=".2s">
+                            <span class="ability-label">Quasar Framework</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-
-                        <li class="wow fadeInRight" data-wow-delay=".7s">
-                            <span class="ability-label">SEO</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay=".3s">
+                            <span class="ability-label">HTML</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
                     </ul>
                 </div>
-                <!--// Web Dev - skill right end -->
+                <div class="col-md-6">
+                    <ul class="list-unstyled ability-list">
 
+                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                            <span class="ability-label">CSS</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                        <li class="wow fadeInLeft" data-wow-delay=".1s">
+                            <span class="ability-label">Bootstrap</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                        <li class="wow fadeInLeft" data-wow-delay=".2s">
+                            <span class="ability-label">Tailwind</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!--// Web Dev Skills end -->
-
-        </div>
+        </section>
 
 
         <br/>
 
-        <div class="">
+        <section>
             <p class="sub wow fadeInDown">Database Management</p>
 
             <div class="row">
-                <!-- DBMS - skill left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
                         <li class="wow fadeInLeft" data-wow-delay="0s">
@@ -657,63 +462,34 @@
                                 <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
-
-                        <li class="wow fadeInLeft" data-wow-delay=".1s">
-                            <span class="ability-label">MS Access</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-
                     </ul>
                 </div>
-                <!--// DBMS - skill left -->
-
-
-                <!-- DBMS - skill right -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
                         <li class="wow fadeInRight" data-wow-delay=".0s">
                             <span class="ability-label">Oracle</span>
-
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <!--// DBMS - skill right end -->
-
             </div>
-            <!--// DBMS End -->
-
-        </div>
-
-        <!-- DBMS Start -->
+        </section>
 
         <br/>
 
-        <div class="">
-            <!-- Operating Systems Start -->
+        <section>
             <p class="sub wow fadeInDown">Operating Systems</p>
-
             <div class="row">
-                <!-- Operating Systems - skill left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
                         <li class="wow fadeInLeft" data-wow-delay="0s">
                             <span class="ability-label">Windows</span>
-
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
@@ -724,46 +500,96 @@
                         </li>
                     </ul>
                 </div>
-                <!--// Operating Systems - skill left -->
-
-                <!-- Operating Systems - skill right -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
-                        <li class="wow fadeInRight" data-wow-delay="0s">
-                            <span class="ability-label">Ubuntu</span>
-
+                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                            <span class="ability-label">Unix Environment</span>
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <!--// Operating Systems - skill right end -->
             </div>
-            <!--// Operating Systems End -->
-
-        </div>
-
+        </section>
 
         <br/>
 
-
-        <div class="">
+        <div>
             <!-- Tools Start -->
             <p class="sub wow fadeInDown">Tools</p>
-
             <div class="row">
                 <!-- Tools - left -->
                 <div class="col-md-6">
                     <ul class="list-unstyled ability-list">
+                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                            <span class="ability-label">PHPStorm</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
 
+                        <li class="wow fadeInLeft" data-wow-delay=".1s">
+                            <span class="ability-label">VS Code</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                        <li class="wow fadeInLeft" data-wow-delay=".2">
+                            <span class="ability-label">Intellij</span>
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                        <li class="wow fadeInLeft" data-wow-delay=".3s">
+                            <span class="ability-label">Postman</span>
+
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                        <li class="wow fadeInLeft" data-wow-delay=".4s">
+                            <span class="ability-label">Chrome/Vue DevTools</span>
+
+                            <div class="ability-rating">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled ability-list">
 
                         <li class="wow fadeInLeft" data-wow-delay="0s">
-                            <span class="ability-label">Firebug</span>
+                            <span class="ability-label">Git</span>
 
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
@@ -775,7 +601,7 @@
                         </li>
 
                         <li class="wow fadeInLeft" data-wow-delay=".1s">
-                            <span class="ability-label">Chrome DevTools</span>
+                            <span class="ability-label">SVN</span>
 
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
@@ -787,40 +613,30 @@
                         </li>
 
                         <li class="wow fadeInLeft" data-wow-delay=".2s">
-                            <span class="ability-label">PHPStorm</span>
+                            <span class="ability-label">Jira</span>
 
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
-
 
                         <li class="wow fadeInLeft" data-wow-delay=".3s">
-                            <span class="ability-label">Netbeans</span>
+                            <span class="ability-label">Confluence</span>
 
                             <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
                         </li>
 
-                    </ul>
-                </div>
-                <!--// Tools -  left end -->
-
-
-                <!-- Tools - right -->
-                <div class="col-md-6">
-                    <ul class="list-unstyled ability-list">
-
-                        <li class="wow fadeInLeft" data-wow-delay="0s">
+                        <li class="wow fadeInLeft" data-wow-delay=".4s">
                             <span class="ability-label">Photoshop</span>
 
                             <div class="ability-rating">
@@ -828,54 +644,15 @@
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-
-                        <li class="wow fadeInRight" data-wow-delay=".1s">
-                            <span class="ability-label">Vegas Pro 10</span>
-
-                            <div class="ability-rating">
                                 <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-                        <li class="wow fadeInRight" data-wow-delay=".2s">
-                            <span class="ability-label">Visual Studio (2008, 2010)</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                            </div>
-                        </li>
-
-                        <li class="wow fadeInRight" data-wow-delay=".3s">
-                            <span class="ability-label">After Effects</span>
-
-                            <div class="ability-rating">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
-                                <span class="glyphicon glyphicon-star-empty"></span>
                             </div>
                         </li>
 
 
                     </ul>
                 </div>
-                <!--// Tools - right end -->
 
             </div>
-            <!--// Tools end -->
 
         </div>
 
@@ -883,46 +660,6 @@
     </div>
 </section>
 <!-- Abilities Section End -->
-
-
-<!-- Projects Section -->
-<section id="projects" class="full-height">
-    <div class="container">
-        <h2 class="heading wow fadeInDown">Projects</h2>
-
-
-        <p class="lead text-center text-muted">Crafting my projects - stay tuned!</p>
-        <hr>
-
-        <p>Have an interesting project? <a class="page-scroll btn btn-info btn-xs" href="#contact">Let's Discuss</a></p>
-
-
-        <!--            <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12 grid">
-                            <figure class="effect-bubba">
-                                <img src="assets/img/projects/1.jpg" alt="img02"/>
-                                <figcaption>
-                                    <h2>Class Management System</h2>
-                                    <p>Bubba likes to appear out of thin air.</p>
-                                    <a href="#">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 grid">
-                            <figure class="effect-bubba">
-                                <img src="assets/img/projects/2.jpg" alt="img02"/>
-                                <figcaption>
-                                    <h2>Fresh <span>Bubba</span></h2>
-                                    <p>Bubba likes to appear out of thin air.</p>
-                                    <a href="#">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>-->
-    </div>
-</section>
-<!-- Projects Section End -->
-
 
 <!-- Contact Section -->
 <section id="contact" class="full-height">
@@ -964,7 +701,7 @@
 
         <div class="row text-center footer">
             <div class="col-md-12">
-                <p class="text-muted">2017 © Chris Landeza </p>
+                <p class="text-muted">2020 © Chris Landeza </p>
             </div>
         </div>
     </div>
